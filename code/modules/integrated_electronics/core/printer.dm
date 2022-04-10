@@ -108,8 +108,8 @@
 
 
 /obj/item/integrated_circuit_printer/interact(mob/user)
-	//if(!(in_range(src, user) || issilicon(user)))
-	return
+	if(!(in_range(src, user) || issilicon(user)))
+		return
 
 	var/client/client = user.client
 	if (CONFIG_GET(flag/use_exp_tracking) && client && client.get_exp_living(TRUE) < 480) // Player with less than 8 hours playtime is using this machine.
