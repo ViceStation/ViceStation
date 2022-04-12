@@ -16968,7 +16968,6 @@
 	c_tag = "Locker Room West";
 	dir = 4
 	},
-/obj/machinery/vending/kink,
 /turf/open/floor/plasteel,
 /area/commons/dorms)
 "fPI" = (
@@ -18247,10 +18246,6 @@
 /turf/open/floor/engine,
 /area/engineering/main)
 "grF" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "robotics_shutters";
-	name = "robotics shutters"
-	},
 /obj/machinery/door/airlock/research{
 	name = "Robotics Lab";
 	req_access_txt = "29"
