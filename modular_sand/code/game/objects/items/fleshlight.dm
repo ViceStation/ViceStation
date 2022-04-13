@@ -346,7 +346,7 @@
 // portal fleshlight box
 /obj/item/storage/box/portallight/PopulateContents()
 	new /obj/item/portallight/(src)
-	//new /obj/item/clothing/underwear/briefs/panties/portalpanties/(src)
+	new /obj/item/clothing/underwear/briefs/panties/portalpanties/(src)
 	new /obj/item/paper/fluff/portallight(src)
 
 /obj/item/paper/fluff/portallight
