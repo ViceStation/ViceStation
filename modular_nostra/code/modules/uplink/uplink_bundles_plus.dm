@@ -19,3 +19,12 @@
 	new /obj/item/ingot/iron(src)
 	new /obj/item/ingot/iron(src)
 	new /obj/item/ingot/iron(src)
+
+/obj/item/storage/box/syndie_kit/desperadoheavysuit
+	name = "The Heavy Desperado Armory Kit"
+	desc = "You can't lay a finger on me! Contains a heavily explosive and bullet resistant suit with a deployable shield along with the BLOODLUST scissor-cleaver. With this you'll might feel pretty fucking invincible, until you die of course."
+
+
+/obj/item/storage/box/syndie_kit/desperadoheavysuit/PopulateContents()
+	new /obj/item/clothing/suit/space/hardsuit/sundowner(src)
+	new /obj/item/claymore/bloodlust(src)
