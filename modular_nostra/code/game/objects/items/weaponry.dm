@@ -42,6 +42,7 @@
 	w_class = WEIGHT_CLASS_BULKY
 	attack_verb = list("attacked", "gashed", "sliced", "carved", "cleaved")
 	block_chance = 10
+	armour_penetration = 10
 	sharpness = SHARP_EDGED
 	max_integrity = 500
 	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 100, ACID = 100)
@@ -84,9 +85,12 @@
 
 /obj/item/shield/redshield/on_active_block(mob/living/owner, atom/object, damage, damage_blocked, attack_text, attack_type, armour_penetration, mob/attacker, def_zone, final_block_chance, list/block_return, override_direction)
 	on_shield_block(owner, object, damage, attack_text, attack_type, armour_penetration, attacker, def_zone, final_block_chance)
-	if(iscarbon(attacker))
-		var/atom/throw_target = get_edge_target_turf(attacker, get_dir(attacker, get_step_away(attacker, owner)))
-		attacker.throw_at(throw_target, 1, 1,owner)
+	if(attack_type & ATTACK_TYPE_PROJECTILE)
+		return
+	else
+		if(iscarbon(attacker))
+			var/atom/throw_target = get_edge_target_turf(attacker, get_dir(attacker, get_step_away(attacker, owner)))
+			attacker.throw_at(throw_target, 1, 1,owner)
 
 /obj/item/shield/redshield/dropped(mob/user)
 	. = ..()

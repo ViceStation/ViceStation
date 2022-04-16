@@ -28,3 +28,12 @@
 /obj/item/storage/box/syndie_kit/desperadoheavysuit/PopulateContents()
 	new /obj/item/clothing/suit/space/hardsuit/sundowner(src)
 	new /obj/item/claymore/bloodlust(src)
+
+/obj/item/storage/box/syndie_kit/desperadolightsuit
+	name = "The Light Desperado Armory Kit"
+	desc = "There will be BLOOD- SHED!!!!"
+
+
+/obj/item/storage/box/syndie_kit/desperadolightsuit/PopulateContents()
+	new /obj/item/clothing/suit/armor/minuano(src)
+	new /obj/item/murasama(src)

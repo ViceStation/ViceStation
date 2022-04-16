@@ -3873,6 +3873,7 @@
 #include "modular_nostra\code\game\machinery\syndicatebeacon.dm"
 #include "modular_nostra\code\game\objects\items\chainsaw.dm"
 #include "modular_nostra\code\game\objects\items\granters.dm"
+#include "modular_nostra\code\game\objects\items\murasama.dm"
 #include "modular_nostra\code\game\objects\items\spears.dm"
 #include "modular_nostra\code\game\objects\items\weaponry.dm"
 #include "modular_nostra\code\modules\clothing\suits\mgr.dm"

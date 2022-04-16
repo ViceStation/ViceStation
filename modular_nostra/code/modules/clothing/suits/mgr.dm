@@ -8,7 +8,7 @@
 	icon_state = "sundowner_suit"
 	item_state = "sundowner_suit"
 	hardsuit_type = "syndi"
-	slowdown = 1.5
+	slowdown = 1.3
 	w_class = WEIGHT_CLASS_HUGE
 	armor = list("melee" = 30, "bullet" = 65, "laser" = 50, "energy" = 45, "bomb" = 95, "bio" = 0, "rad" = 10, "fire" = 50, "acid" = 50, "wound" = 20)
 	allowed = list(/obj/item/claymore/bloodlust, /obj/item/tank/internals)
@@ -30,8 +30,8 @@
 	clothes_req = NONE
 	item_type = /obj/item/shield/redshield
 	school = "conjuration"
-	charge_max = 200
-	cooldown_min = 30
+	charge_max = 100
+	cooldown_min = 15
 	action_icon = 'modular_nostra/icons/obj/actions_minor_antag.dmi'
 	action_icon_state = "sundowner_deploy"
 	delete_old = TRUE
@@ -87,3 +87,33 @@
 	armor = list("melee" = 25, "bullet" = 50, "laser" = 45, "energy" = 40, "bomb" = 95, "bio" = 0, "rad" = 5, "fire" = 50, "acid" = 50, "wound" = 20)
 	heat_protection = HEAD
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
+
+/obj/item/clothing/head/helmet/space/hardsuit/sundowner/update_icon_state()
+	icon_state = "sundowner_suit"
+
+
+/obj/item/clothing/suit/armor/minuano
+	name = "Minuano"
+	desc = "Mind if I cut in?"
+	icon = 'modular_nostra/icons/obj/clothing/suits.dmi'
+	mob_overlay_icon = 'modular_nostra/icons/mob/clothing/suit.dmi'
+	anthro_mob_worn_overlay = 'modular_nostra/icons/mob/clothing/suit_digi.dmi'
+	icon_state = "jetstream_sam"
+	item_state = "jetstream_sam"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	armor = list(MELEE = 70, BULLET = 25, LASER = 25, ENERGY = 25, BOMB = 0, BIO = 0, RAD = 0, FIRE = 100, ACID = 100, WOUND = 45)
+	blocks_shove_knockdown = TRUE
+	strip_delay = 80
+	equip_delay_other = 60
+	slowdown = 0
+
+/obj/item/clothing/suit/armor/minuano/equipped(mob/user, slot)
+	. = ..()
+	if(slot == ITEM_SLOT_OCLOTHING)
+		slowdown = -0.5
+
+/obj/item/clothing/suit/armor/minuano/dropped(mob/user)
+	. = ..()
+	slowdown = 0
