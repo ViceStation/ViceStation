@@ -4850,7 +4850,6 @@
 "bOj" = (
 /mob/living/simple_animal/hostile/bear/russian{
 	health = 350;
-	maxHealth = 350;
 	name = "Natalia"
 	},
 /turf/open/floor/plating/rust,
@@ -6259,10 +6258,6 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
-"ckI" = (
-/obj/machinery/smartfridge/organ/preloaded,
-/turf/closed/wall,
-/area/medical/surgery)
 "ckM" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -15286,7 +15281,6 @@
 /mob/living/simple_animal/pet/gondola{
 	desc = "Commandola is the silent walker. Having no hands he embodies the Taoist principle of wu-wei (non-action) while his smiling facial expression shows his utter and complete acceptance of the world as it is. Its hide is extremely deadly.";
 	health = 1750;
-	maxHealth = 1750;
 	melee_damage_lower = 2;
 	melee_damage_upper = 2;
 	name = "Gary";
@@ -15414,12 +15408,12 @@
 /turf/open/floor/plasteel/freezer,
 /area/commons/toilet)
 "fpC" = (
+/obj/item/melee/baseball_bat,
+/obj/item/clothing/suit/yakuza,
+/obj/item/clothing/glasses/eyepatch,
 /obj/machinery/light/small{
 	dir = 8
 	},
-/obj/item/melee/baseball_bat/ablative,
-/obj/item/clothing/suit/yakuza,
-/obj/item/clothing/glasses/eyepatch,
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "fpT" = (
@@ -26913,7 +26907,6 @@
 	name = "Engineering Storage";
 	req_access_txt = "32"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/engineering/main)
 "jqZ" = (
@@ -27411,7 +27404,6 @@
 	health = 25;
 	maxHealth = 50;
 	name = "Speed Gonzalez";
-	speed = 10;
 	turns_per_move = 2
 	},
 /turf/open/floor/plating,
@@ -29991,7 +29983,6 @@
 	name = "Station Intercom (General)";
 	pixel_x = -30
 	},
-/obj/machinery/recharger,
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
 "kxT" = (
@@ -30837,7 +30828,12 @@
 	dir = 1;
 	pixel_y = -26
 	},
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/engineering/main)
 "kMq" = (
@@ -30918,7 +30914,6 @@
 "kNh" = (
 /mob/living/simple_animal/hostile/retaliate/goat{
 	health = 69;
-	maxHealth = 69;
 	melee_damage_lower = 8;
 	melee_damage_upper = 10;
 	name = "Asterion"
@@ -38705,7 +38700,6 @@
 	damage_coeff = list("brute" = 0.25, "fire" = 0.25, "tox" = 1, "clone" = 1, "stamina" = 0, "oxy" = 1);
 	desc = "Exposure to low gravity made them grow larger, this one looks particularly royal.";
 	health = 250;
-	maxHealth = 250;
 	name = "Lorde"
 	},
 /turf/open/floor/plasteel/vaporwave,
@@ -42310,7 +42304,6 @@
 	icon_living = "crawling";
 	icon_state = "crawling";
 	loot = list(/obj/effect/gibspawner/generic);
-	maxHealth = 200;
 	melee_damage_lower = 12;
 	melee_damage_upper = 15;
 	name = "Geoffrey";
@@ -48553,8 +48546,7 @@
 /mob/living/simple_animal/hostile/retaliate/clown/mutant/blob{
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_tox" = 0, "max_tox" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0);
 	enemies = list("neutral");
-	health = 300;
-	maxHealth = 300
+	health = 300
 	},
 /turf/open/floor/plating,
 /area/service/theater/abandoned)
@@ -58563,12 +58555,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engineering/transit_tube)
-"uqP" = (
-/obj/machinery/rnd/experimentor{
-	pixel_x = -32
-	},
-/turf/open/floor/engine,
-/area/science/explab)
 "uqR" = (
 /turf/closed/wall/r_wall,
 /area/construction)
@@ -69897,6 +69883,10 @@
 "xYM" = (
 /turf/closed/wall/r_wall,
 /area/security/office)
+"xYN" = (
+/obj/machinery/rnd/experimentor,
+/turf/open/floor/engine,
+/area/science/explab)
 "xYV" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -80945,7 +80935,7 @@ iFN
 ara
 vMG
 mYI
-ofk
+weM
 kMn
 vMG
 unz
@@ -99675,7 +99665,7 @@ wye
 pqy
 xma
 xOz
-ckI
+fxn
 aMu
 veq
 tXx
@@ -111487,7 +111477,7 @@ ygo
 ygo
 twc
 xwx
-xZb
+xYN
 uDN
 nAj
 pdt
@@ -111744,7 +111734,7 @@ ygo
 ygo
 twc
 xye
-uqP
+xZb
 cTs
 ozy
 hun
