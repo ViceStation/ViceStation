@@ -58555,6 +58555,12 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engineering/transit_tube)
+"uqP" = (
+/obj/machinery/rnd/experimentor{
+	pixel_x = -32
+	},
+/turf/open/floor/engine,
+/area/science/explab)
 "uqR" = (
 /turf/closed/wall/r_wall,
 /area/construction)
@@ -69883,10 +69889,6 @@
 "xYM" = (
 /turf/closed/wall/r_wall,
 /area/security/office)
-"xYN" = (
-/obj/machinery/rnd/experimentor,
-/turf/open/floor/engine,
-/area/science/explab)
 "xYV" = (
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
@@ -111477,7 +111479,7 @@ ygo
 ygo
 twc
 xwx
-xYN
+xZb
 uDN
 nAj
 pdt
@@ -111734,7 +111736,7 @@ ygo
 ygo
 twc
 xye
-xZb
+uqP
 cTs
 ozy
 hun
