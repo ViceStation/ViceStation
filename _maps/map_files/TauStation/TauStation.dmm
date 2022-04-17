@@ -29991,6 +29991,7 @@
 	name = "Station Intercom (General)";
 	pixel_x = -30
 	},
+/obj/machinery/recharger,
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
 "kxT" = (
