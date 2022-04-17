@@ -95,3 +95,39 @@
 /obj/item/shield/redshield/dropped(mob/user)
 	. = ..()
 	qdel(src)
+
+/obj/item/claymore/dystopia
+	name = "Dystopia"
+	desc = "Memes, the embodyment of the soul."
+	icon = 'modular_nostra/icons/obj/items_and_weapons.dmi'
+	icon_state = "dystopia"
+	item_state = "dystopia"
+	lefthand_file = 'modular_nostra/icons/mob/inhands/weapons/swords_lefthand.dmi'
+	righthand_file = 'modular_nostra/icons/mob/inhands/weapons/swords_righthand.dmi'
+	hitsound = 'sound/weapons/bladeslice.ogg'
+	flags_1 = CONDUCT_1
+	slot_flags = ITEM_SLOT_BELT
+	force = 25
+	throwforce = 30
+	w_class = WEIGHT_CLASS_SMALL
+	attack_verb = list("attacked", "gashed", "sliced", "carved", "cleaved")
+	block_chance = 25
+	armour_penetration = 25
+	sharpness = SHARP_POINTY
+	max_integrity = 500
+	armor = list(MELEE = 0, BULLET = 0, LASER = 0, ENERGY = 0, BOMB = 0, BIO = 0, RAD = 0, FIRE = 100, ACID = 100)
+	resistance_flags = FIRE_PROOF
+	total_mass = TOTAL_MASS_MEDIEVAL_WEAPON
+	wound_bonus = WOUND_PIERCE
+
+
+/obj/item/claymore/dystopia/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
+	var/caught = hit_atom.hitby(src, FALSE, FALSE, throwingdatum=throwingdatum)
+
+	if(thrownby && !caught)
+		sleep(1)
+		playsound(src, 'sound/weapons/bladeslice.ogg', 50, 1, -2)
+		var/mob/living/carbon/H = thrownby
+		H.throw_mode_on()
+		throw_at(thrownby, 45, throw_speed, null, TRUE)
+		. = ..()

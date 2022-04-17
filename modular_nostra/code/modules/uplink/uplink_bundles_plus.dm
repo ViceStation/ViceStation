@@ -37,3 +37,14 @@
 /obj/item/storage/box/syndie_kit/desperadolightsuit/PopulateContents()
 	new /obj/item/clothing/suit/armor/minuano(src)
 	new /obj/item/murasama(src)
+	new /obj/item/antag_spawner/bladewolf(src)
+
+/obj/item/storage/box/syndie_kit/desperadomediumsuit
+	name = "The Medium Desperado Armory Kit"
+	desc = "Memes, the embodyment of the soul..."
+
+
+/obj/item/storage/box/syndie_kit/desperadomediumsuit/PopulateContents()
+	new /obj/item/clothing/suit/space/hardsuit/monsoon(src)
+	new /obj/item/claymore/dystopia(src)
+	new /obj/item/claymore/dystopia(src)
