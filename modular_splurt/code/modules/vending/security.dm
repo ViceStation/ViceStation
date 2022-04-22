@@ -71,7 +71,19 @@
 	new /obj/item/radio/headset/headset_blueshield(src)
 	new /obj/item/flashlight/seclite(src)
 	new /obj/item/clothing/mask/gas/sechailer/swat(src)
+	new /obj/item/storage/firstaid/brute(src)
+	new /obj/item/storage/firstaid/o2(src)
+	new /obj/item/storage/firstaid/fire(src)
+	new /obj/item/storage/firstaid/toxin(src)
+	new /obj/item/storage/belt/security/bsfull(src)
+
+/obj/item/storage/belt/security/bsfull/PopulateContents()
+	new /obj/item/reagent_containers/spray/pepper(src)
+	new /obj/item/restraints/handcuffs(src)
 	new /obj/item/grenade/flashbang(src)
+	new /obj/item/assembly/flash/handheld(src)
+	new /obj/item/melee/classic_baton/telescopic(src)
+	update_icon()
 
 /obj/structure/closet/secure_closet/bridgesec
 	name = "bridge officer's locker"
