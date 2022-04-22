@@ -5,7 +5,7 @@
 	reqs = list(/obj/item/stack/sheet/mineral/bamboo = 20, /obj/item/stack/sheet/leather = 5)
 	category = CAT_CLOTHING
 
-/datum/crafting_recipe/bamboosamurai
+/datum/crafting_recipe/bamboosamuraihelm
 	name = "Bamboo Samurai Helm"
 	result = /obj/item/clothing/head/helmet/bamboosamuraihelm
 	time = 15
