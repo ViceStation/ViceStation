@@ -2933,6 +2933,17 @@
 	dir = 1
 	},
 /area/commons/dorms)
+"bVL" = (
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+	dir = 8
+	},
+/obj/machinery/rnd/production/techfab/department/security,
+/turf/open/floor/plasteel/dark,
+/area/security/brig)
 "bWo" = (
 /obj/machinery/light{
 	dir = 4
@@ -7340,6 +7351,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
+/obj/machinery/rnd/production/techfab/department/service,
 /turf/open/floor/plasteel,
 /area/service/bar)
 "ftk" = (
@@ -9565,6 +9577,20 @@
 	},
 /turf/open/floor/plasteel,
 /area/commons/storage/tools)
+"gXd" = (
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/rnd/production/techfab/department/engineering,
+/turf/open/floor/plasteel,
+/area/engineering/main)
 "gXe" = (
 /obj/machinery/pdapainter,
 /obj/structure/cable{
@@ -12208,6 +12234,14 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
+"iWG" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/machinery/rnd/production/techfab/department/medical,
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/zone3)
 "iXh" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/structure/cable,
@@ -27538,6 +27572,14 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
 /area/engineering/main)
+"uGc" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/machinery/rnd/production/techfab/department/cargo,
+/turf/open/floor/plasteel,
+/area/cargo/qm)
 "uGr" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -61804,7 +61846,7 @@ awR
 awR
 bYA
 bZn
-xHL
+gXd
 rMv
 dCe
 pnR
@@ -62086,7 +62128,7 @@ yfr
 wmr
 kea
 gtJ
-lhz
+bVL
 dVj
 vNd
 kea
@@ -62550,7 +62592,7 @@ anb
 wvl
 anb
 suQ
-lMJ
+iWG
 upw
 lMJ
 vDp
@@ -68765,7 +68807,7 @@ oBG
 oBG
 oBG
 rwE
-oBG
+uGc
 wXO
 fOe
 aFx
