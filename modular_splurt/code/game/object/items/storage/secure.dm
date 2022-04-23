@@ -50,7 +50,7 @@
 
 /obj/item/storage/secure/briefcase/bsgun/revolver
 	name = "\improper Energy Revolver box"
-	desc = "A storage case for a high-tech Energy revolver. This is a prototype so don't loose it."
+	desc = "A storage case for a high-tech Energy revolver. This is a prototype so don't lose it."
 
 /obj/item/storage/secure/briefcase/bsgun/revolver/PopulateContents()
 	new /obj/item/gun/energy/e_gun/bsgun(src)
