@@ -765,7 +765,12 @@
 	c_tag = "Docking Bay - South West";
 	dir = 4
 	},
-/obj/machinery/vending/snack/random,
+/obj/machinery/computer/shuttle/mining/common{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "aAy" = (
@@ -1154,6 +1159,18 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"aMc" = (
+/obj/docking_port/stationary{
+	dir = 8;
+	dwidth = 3;
+	height = 5;
+	id = "commonmining_home";
+	name = "SS13: Common Mining Dock";
+	roundstart_template = /datum/map_template/shuttle/mining_common/meta;
+	width = 7
+	},
+/turf/open/space/basic,
+/area/space)
 "aMg" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -4180,8 +4197,8 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/port/fore)
 "cSP" = (
-/obj/machinery/portable_atmospherics/scrubber,
 /obj/effect/turf_decal/bot,
+/obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "cSV" = (
@@ -17156,9 +17173,8 @@
 /obj/machinery/sparker/toxmix{
 	pixel_x = -17
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 8;
-	name = "toxins mixing output inlet"
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/toxins_mixing_output{
+	dir = 8
 	},
 /turf/open/floor/engine/vacuum,
 /area/science/xenobiology)
@@ -17709,6 +17725,20 @@
 	},
 /turf/open/floor/plating,
 /area/science/xenobiology)
+"mUB" = (
+/obj/effect/turf_decal/tile/yellow,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/rnd/production/circuit_imprinter,
+/turf/open/floor/plasteel,
+/area/engineering/main)
 "mVf" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/dark,
@@ -18247,6 +18277,18 @@
 	},
 /turf/open/floor/carpet,
 /area/commons/dorms)
+"noI" = (
+/obj/machinery/light,
+/obj/structure/table,
+/obj/item/flashlight,
+/obj/item/gps/mining{
+	gpstag = "MINE_PUB"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel,
+/area/hallway/primary/aft)
 "noK" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -25581,6 +25623,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+/obj/machinery/computer/rdconsole/production{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/engineering/main)
 "tjE" = (
@@ -28805,6 +28850,11 @@
 	},
 /turf/open/floor/plating,
 /area/cargo/qm)
+"vzj" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/engine,
+/area/science/xenobiology)
 "vzy" = (
 /turf/closed/wall/r_wall,
 /area/command/gateway)
@@ -61142,7 +61192,7 @@ aHj
 aHj
 aHj
 aHj
-aHj
+aMc
 aHj
 aHj
 aHj
@@ -61914,7 +61964,7 @@ gMC
 qeC
 srN
 srN
-vLd
+noI
 efl
 aHj
 aHj
@@ -62103,7 +62153,7 @@ bZn
 bZn
 bYA
 bZn
-xHL
+mUB
 rMv
 rMv
 rMv
@@ -89369,7 +89419,7 @@ udC
 prm
 aLL
 aLL
-aLL
+vzj
 mgE
 aHj
 aHj
