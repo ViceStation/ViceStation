@@ -149,7 +149,7 @@
 	spread = 0
 
 /obj/item/gun/ballistic/automatic/wt550/update_icon_state()
-	icon_state = "wt550[magazine ? "-[CEILING(((get_ammo(FALSE) / magazine.max_ammo) * 20) /4, 1)*4]" : "-0"]-[suppressed ? "-suppressed" : ""]]" //Sprites only support up to 20.
+	icon_state = "wt550[suppressed ? "-suppressed" : ""][magazine ? "-[CEILING(((get_ammo(FALSE) / magazine.max_ammo) * 20) /4, 1)*4]" : "-0"]]" //Sprites only support up to 20.
 
 /obj/item/gun/ballistic/automatic/mini_uzi
 	name = "\improper Type U3 Uzi"
