@@ -22,7 +22,7 @@
 	return
 
 /obj/machinery/computer/arcade/tetris/attack_ai(user as mob)
-	return src.attack_hand(user)
+	return
 
 /obj/machinery/computer/arcade/tetris/attack_hand(mob/user as mob)
 	if(..())
@@ -33,8 +33,7 @@
 		return
 
 	if(user.client)
-		var/datum/asset/simple/assets = get_asset_datum(/datum/asset/simple/tetris)
-		assets.send(user.client)
+		return
 
 	var/dat = {"
 	<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
