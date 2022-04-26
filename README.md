@@ -24,7 +24,7 @@ Based off of S.P.L.U.R.T., which was based off of Sandstorm Station 13, which is
 * **Code:** <https://github.com/SandPoot/Sandstorm-Station-13>
 * **Discord:**  <https://discord.gg/quXTqa6cp9> (updated 19/01/2022)
 
-**S.P.L.U.R.T. Station Information**
+**S.P.L.U.R.T. Station (sidestream) Information**
 * **Code:** https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13
 * **Discord:** https://discord.gg/wynHVMzHzC
 

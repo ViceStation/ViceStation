@@ -186,11 +186,11 @@ export class Changelog extends Component {
         </p>
         <p>
           {'Current project maintainers can be found '}
-          <a href="https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13/graphs/contributors">
+          <a href="https://github.com/ViceStation/ViceStation/graphs/contributors">
             here
           </a>
           {', recent GitHub contributors can be found '}
-          <a href="https://github.com/SPLURT-Station/S.P.L.U.R.T-Station-13/pulse/monthly">
+          <a href="https://github.com/ViceStation/ViceStation/pulse/monthly">
             here
           </a>.
         </p>
