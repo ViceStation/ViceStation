@@ -13,7 +13,7 @@
 	exp_type = EXP_TYPE_SECURITY
 	considered_combat_role = TRUE //Brigger then shit yes it is
 	exp_type_department = EXP_TYPE_SECURITY
-	alt_titles = list("Command Security", "Command Guard", "Command Bodyguard", "Blueguard", "Blue Secuirty", "Blueshit", "BlueSlut")
+	alt_titles = list("Command Security", "Command Guard", "Command Bodyguard", "Blueguard", "Blue Security", "Blueshit", "BlueSlut")
 	custom_spawn_text = "<font color='red' size='2'><b> The Captain may ONLY tell a Blueshield to leave them alone if there is a replacement Blueshield they want in their stead. Captains must have a minimum of one Blueshield watching them at most times. Otherwise, the Chain of Command takes Priority. You still have your selection of which Head of Staff you would like to defend as long as the Captain has a dedicated Blueshield. </b></font>"
 	outfit = /datum/outfit/job/blueshield
 	plasma_outfit = /datum/outfit/plasmaman/blueshield

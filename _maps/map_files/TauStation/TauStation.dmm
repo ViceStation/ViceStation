@@ -2713,8 +2713,8 @@
 	name = "Blueshield's Quarters";
 	req_access_txt = "72"
 	},
-/turf/open/floor/wood,
-/area/command/blueshieldoffice)
+/turf/open/floor/plasteel/dark,
+/area/command/blueshielquarters)
 "aUY" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -11984,6 +11984,10 @@
 	pixel_x = -5;
 	pixel_y = 6
 	},
+/obj/item/radio/off{
+	pixel_x = 6;
+	pixel_y = 4
+	},
 /obj/machinery/newscaster{
 	pixel_x = 30
 	},
@@ -13160,15 +13164,17 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
 	},
-/turf/open/floor/wood,
-/area/command/blueshieldoffice)
+/turf/open/floor/plasteel/dark,
+/area/command/blueshielquarters)
 "eCD" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/effect/landmark/start/blueshield,
-/turf/open/floor/carpet,
-/area/command/blueshieldoffice)
+/turf/open/floor/plasteel/dark,
+/area/command/blueshielquarters)
+"eCI" = (
+/turf/open/floor/plasteel/dark,
+/area/command/blueshielquarters)
 "eCL" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -13209,6 +13215,15 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
+"eDr" = (
+/obj/structure/closet/secure_closet/blueshield,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/showroomfloor,
+/area/command/blueshielquarters)
 "eEf" = (
 /obj/machinery/navbeacon{
 	codes_txt = "delivery;dir=2";
@@ -14030,20 +14045,21 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/structure/table/wood,
-/obj/item/radio/off{
-	pixel_y = 6
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
 	},
-/obj/item/radio/off{
-	pixel_x = -6;
-	pixel_y = 4
-	},
-/obj/item/radio/off{
+/obj/structure/table/reinforced,
+/obj/machinery/recharger{
 	pixel_x = 6;
-	pixel_y = 4
+	pixel_y = 3
 	},
-/turf/open/floor/carpet,
-/area/command/blueshieldoffice)
+/obj/machinery/recharger{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/command/blueshielquarters)
 "eSp" = (
 /obj/structure/table/wood,
 /obj/item/radio/intercom{
@@ -14063,8 +14079,14 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/open/floor/carpet,
-/area/command/blueshieldoffice)
+/obj/machinery/light,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/landmark/start/blueshield,
+/turf/open/floor/plasteel/showroomfloor,
+/area/command/blueshielquarters)
 "eSH" = (
 /obj/machinery/camera{
 	c_tag = "Permabrig Processing";
@@ -15120,8 +15142,8 @@
 	dir = 4;
 	pixel_x = -23
 	},
-/turf/open/floor/wood,
-/area/command/blueshieldoffice)
+/turf/open/floor/plasteel/dark,
+/area/command/blueshielquarters)
 "fkA" = (
 /obj/vehicle/ridden/secway,
 /obj/item/key/security,
@@ -17284,11 +17306,15 @@
 	icon_state = "4-8"
 	},
 /obj/structure/rack,
-/obj/item/melee/bokken/waki{
-	pixel_x = 3;
-	pixel_y = -2
-	},
 /obj/item/melee/bokken,
+/obj/item/melee/bokken{
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/obj/item/melee/bokken{
+	pixel_x = -4;
+	pixel_y = 3
+	},
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "fVh" = (
@@ -17337,6 +17363,16 @@
 	pixel_x = -2;
 	pixel_y = -1
 	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/item/multitool,
+/obj/item/multitool,
 /obj/item/multitool,
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
@@ -23584,11 +23620,20 @@
 /turf/open/floor/wood,
 /area/command/meeting_room/council)
 "ifb" = (
-/obj/machinery/light{
+/obj/structure/sink{
+	pixel_y = 25
+	},
+/obj/structure/mirror{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
-/turf/open/floor/carpet,
-/area/command/blueshieldoffice)
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/command/blueshielquarters)
 "ifH" = (
 /obj/structure/bed/badhaybed,
 /obj/item/toy/plush/catgirl,
@@ -25129,6 +25174,9 @@
 "iHY" = (
 /obj/machinery/firealarm{
 	pixel_y = 24
+	},
+/obj/machinery/camera{
+	c_tag = "Cryogenics"
 	},
 /turf/open/floor/plasteel/dark,
 /area/commons/cryopod)
@@ -35404,6 +35452,18 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
+"mnp" = (
+/obj/structure/closet/secure_closet/blueshield,
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/showroomfloor,
+/area/command/blueshielquarters)
 "mnD" = (
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/plating/asteroid/snow{
@@ -36096,6 +36156,7 @@
 /obj/structure/closet/secure_closet/chemical,
 /obj/item/construction/plumbing,
 /obj/item/stack/ducts/fifty,
+/obj/item/hand_labeler,
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
 "mzY" = (
@@ -36206,14 +36267,7 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/machinery/recharger{
-	pixel_x = 6;
-	pixel_y = 3
-	},
-/obj/machinery/recharger{
-	pixel_x = -6;
-	pixel_y = 3
-	},
+/obj/machinery/recharger,
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "mCW" = (
@@ -41901,6 +41955,11 @@
 	dir = 4;
 	name = "Station Intercom (General)";
 	pixel_x = -27
+	},
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/surgery)
@@ -48717,10 +48776,10 @@
 /obj/machinery/shower{
 	dir = 4
 	},
-/obj/structure/window/reinforced/spawner,
+/obj/structure/window/reinforced/spawner/east,
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/plasteel/freezer,
-/area/command/blueshieldoffice)
+/area/command/blueshielquarters)
 "qYJ" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel,
@@ -54143,8 +54202,16 @@
 /area/engineering/storage/tech)
 "sTk" = (
 /obj/structure/closet/secure_closet/blueshield,
-/turf/open/floor/carpet,
-/area/command/blueshieldoffice)
+/obj/effect/turf_decal/tile/red,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel/showroomfloor,
+/area/command/blueshielquarters)
 "sTw" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
@@ -60845,19 +60912,24 @@
 /turf/open/floor/plating,
 /area/maintenance/department/science)
 "vhK" = (
-/obj/structure/window/reinforced/spawner/east,
-/obj/structure/sink{
-	pixel_y = 25
+/obj/effect/turf_decal/tile/red{
+	dir = 1
 	},
-/obj/structure/mirror{
-	pixel_y = 32
+/obj/effect/turf_decal/tile/red{
+	dir = 4
 	},
-/obj/machinery/door/window{
-	name = "Blueshield's Restroom";
-	req_access_txt = "19"
+/obj/structure/table/glass,
+/obj/item/radio/off{
+	pixel_x = -5
 	},
-/turf/open/floor/plasteel/freezer,
-/area/command/blueshieldoffice)
+/obj/item/radio/off{
+	pixel_x = 5
+	},
+/obj/item/radio/off{
+	pixel_y = 6
+	},
+/turf/open/floor/plasteel/showroomfloor,
+/area/command/blueshielquarters)
 "vhT" = (
 /obj/structure/disposalpipe/segment{
 	dir = 10
@@ -63588,6 +63660,9 @@
 	},
 /turf/open/floor/engine,
 /area/commons/fitness/recreation)
+"wbA" = (
+/turf/closed/wall/r_wall,
+/area/command/blueshielquarters)
 "wbD" = (
 /turf/closed/wall,
 /area/engineering/lobby)
@@ -68743,6 +68818,7 @@
 	req_access_txt = "33"
 	},
 /obj/machinery/door/firedoor,
+/obj/item/hand_labeler,
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
 "xIc" = (
@@ -105777,7 +105853,7 @@ fza
 fza
 fza
 roA
-uea
+wbA
 qYF
 eCw
 fky
@@ -106034,7 +106110,7 @@ fza
 fza
 fza
 roA
-uea
+wbA
 vhK
 eCD
 eRR
@@ -106291,11 +106367,11 @@ fza
 fza
 fza
 roA
-uea
+wbA
 ifb
-uzA
+eCI
 eSx
-uea
+wbA
 fHP
 fYw
 gBo
@@ -106548,11 +106624,11 @@ fza
 fza
 roA
 roA
-uea
+wbA
 sTk
-sTk
-sTk
-uea
+eDr
+mnp
+wbA
 fJb
 fYY
 gCr
@@ -106805,11 +106881,11 @@ fza
 fza
 fza
 roA
-uea
-uea
-uea
-uea
-uea
+wbA
+wbA
+wbA
+wbA
+wbA
 fJD
 fZf
 gCt
