@@ -51,6 +51,8 @@
 	gloves = /obj/item/clothing/gloves/color/black
 	backpack_contents = list(/obj/item/melee/classic_baton/telescopic=1, /obj/item/modular_computer/tablet/preset/advanced=1)
 
+	implants = list(/obj/item/implant/mindshield)
+
 	backpack = /obj/item/storage/backpack/industrial
 	satchel = /obj/item/storage/backpack/satchel/eng
 	duffelbag = /obj/item/storage/backpack/duffelbag/engineering

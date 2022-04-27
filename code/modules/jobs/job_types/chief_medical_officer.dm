@@ -50,6 +50,8 @@
 	suit_store = /obj/item/flashlight/pen/paramedic
 	backpack_contents = list(/obj/item/melee/classic_baton/telescopic=1)
 
+	implants = list(/obj/item/implant/mindshield)
+
 	backpack = /obj/item/storage/backpack/medic
 	satchel = /obj/item/storage/backpack/satchel/med
 	duffelbag = /obj/item/storage/backpack/duffelbag/med
