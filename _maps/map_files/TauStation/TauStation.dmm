@@ -2927,6 +2927,8 @@
 "aYD" = (
 /obj/structure/lattice,
 /obj/structure/closet/crate/secure/soviet,
+/obj/effect/spawner/lootdrop/weapon_parts,
+/obj/item/gun/ballistic/revolver/nagant,
 /turf/open/space/basic,
 /area/space/nearstation)
 "aYQ" = (
@@ -6815,6 +6817,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/execution)
+"cuM" = (
+/obj/structure/table/wood,
+/obj/item/paper/fluff/jobs{
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	name = "Vice Station Initiative"
+	},
+/turf/open/floor/wood/wood_diagonal,
+/area/commons/vacant_room/office)
 "cuN" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -9418,6 +9428,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/commons/dorms)
+"doA" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/maintenance/starboard/fore)
 "doB" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -10553,6 +10572,10 @@
 	},
 /obj/item/clothing/mask/cigarette/cigar/havana{
 	pixel_x = 4
+	},
+/obj/item/paper/fluff/jobs{
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	name = "Vice Station Initiative"
 	},
 /turf/open/floor/plasteel/dark,
 /area/command/bridge)
@@ -14439,11 +14462,12 @@
 /turf/open/floor/plasteel/dark,
 /area/commons/dorms)
 "eXv" = (
-/obj/structure/toilet{
-	dir = 8
-	},
 /obj/machinery/light/small{
 	dir = 4
+	},
+/obj/structure/toilet/secret/high_loot{
+	dir = 8;
+	name = "Porcelain Throne"
 	},
 /turf/open/floor/plasteel/freezer,
 /area/command/heads_quarters/captain/private)
@@ -19083,6 +19107,10 @@
 "gEQ" = (
 /obj/structure/table,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/item/paper/fluff/jobs{
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	name = "Vice Station Initiative"
+	},
 /turf/open/floor/carpet,
 /area/security/prison/rec)
 "gEW" = (
@@ -19522,6 +19550,7 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+/obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plasteel,
 /area/cargo/warehouse)
 "gKz" = (
@@ -28369,6 +28398,10 @@
 	id = "hopflash";
 	pixel_y = -28
 	},
+/obj/item/paper/fluff/jobs{
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	name = "Vice Station Initiative"
+	},
 /turf/open/floor/plasteel/dark,
 /area/command/heads_quarters/hop)
 "jRe" = (
@@ -33992,6 +34025,7 @@
 /area/hallway/primary/port)
 "lNR" = (
 /obj/structure/closet/crate,
+/obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/department/medical)
 "lOk" = (
@@ -43127,6 +43161,10 @@
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/item/paper/fluff/jobs{
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	name = "Vice Station Initiative"
+	},
 /turf/open/floor/plasteel/vaporwave,
 /area/service/bar)
 "oYr" = (
@@ -44308,6 +44346,10 @@
 /obj/item/paper_bin,
 /obj/item/pen{
 	pixel_x = -4
+	},
+/obj/item/paper/fluff/jobs{
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	name = "Vice Station Initiative"
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
@@ -47554,6 +47596,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
+"qBz" = (
+/obj/item/paper/fluff/jobs{
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	name = "Vice Station Initiative"
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
 "qBI" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -48042,6 +48091,10 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 6
+	},
+/obj/item/paper/fluff/jobs{
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	name = "Vice Station Initiative"
 	},
 /turf/open/floor/plasteel,
 /area/commons/dorms)
@@ -50414,6 +50467,10 @@
 	},
 /obj/machinery/firealarm{
 	pixel_y = 24
+	},
+/obj/item/paper/fluff/jobs{
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	name = "Vice Station Initiative"
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
@@ -102608,7 +102665,7 @@ qWA
 qWA
 lIv
 pTX
-vpL
+qBz
 nsE
 hBL
 fza
@@ -104399,7 +104456,7 @@ hTx
 uXH
 ggh
 gEB
-eMF
+cuM
 jCw
 jsH
 eFh
@@ -120999,8 +121056,8 @@ cJd
 cVt
 gIr
 awC
-hpl
-woJ
+ptR
+doA
 bLC
 boK
 aZN
