@@ -11590,6 +11590,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/medical/medbay/zone3)
+"iAi" = (
+/obj/structure/lattice,
+/turf/open/space/basic,
+/area/space)
 "iAA" = (
 /obj/docking_port/stationary{
 	dir = 8;
@@ -15292,10 +15296,6 @@
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/command/storage/eva)
-"lgL" = (
-/obj/structure/closet/toolcloset,
-/turf/open/floor/plating,
-/area/science/xenobiology)
 "lgT" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -16620,6 +16620,15 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/plasteel/grimy,
 /area/hallway/primary/port/aft)
+"mdc" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/visible/layer1{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/science/xenobiology)
 "mdD" = (
 /obj/effect/landmark/start/ai/secondary,
 /obj/item/radio/intercom{
@@ -17110,6 +17119,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/closet/toolcloset,
 /turf/open/floor/plating,
 /area/science/xenobiology)
 "mxo" = (
@@ -17714,14 +17724,9 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/port/aft)
 "mUi" = (
-/obj/machinery/atmospherics/pipe/bluespace{
-	bluespace_network_name = "breathable";
-	dir = 8;
-	inertia_dir = 8;
-	initialize_directions = 8;
-	new_occupant_dir = 8;
-	on = 1;
-	piping_layer = 1
+/obj/machinery/atmospherics/components/unary/tank/air{
+	dir = 4;
+	level = 1
 	},
 /turf/open/floor/plating,
 /area/science/xenobiology)
@@ -19861,12 +19866,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/fore)
-"oyf" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/open/floor/plating,
-/area/science/xenobiology)
 "oyn" = (
 /obj/effect/spawner/structure/window,
 /obj/structure/cable{
@@ -19936,6 +19935,11 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
+"oBy" = (
+/obj/structure/lattice,
+/obj/structure/grille,
+/turf/closed/wall/r_wall,
+/area/space/nearstation)
 "oBG" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -22418,6 +22422,10 @@
 	},
 /turf/open/floor/plating,
 /area/security/prison)
+"qyQ" = (
+/obj/structure/grille,
+/turf/closed/wall/r_wall,
+/area/space/nearstation)
 "qyY" = (
 /obj/structure/closet/firecloset{
 	anchored = 1
@@ -27690,13 +27698,9 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/obj/machinery/atmospherics/pipe/bluespace{
-	bluespace_network_name = "breathable";
-	dir = 8;
-	inertia_dir = 8;
-	initialize_directions = 8;
-	new_occupant_dir = 8;
-	on = 1
+/obj/machinery/atmospherics/components/unary/tank/air{
+	dir = 4;
+	level = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat_interior)
@@ -28172,10 +28176,10 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/obj/machinery/rnd/production/protolathe,
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
+/obj/machinery/rnd/production/protolathe/department/science,
 /turf/open/floor/plasteel/dark,
 /area/science/lab)
 "uYk" = (
@@ -56747,9 +56751,9 @@ pFq
 hKr
 hKr
 hKr
-aHj
-aHj
-aHj
+oBy
+oBy
+oBy
 aHj
 aHj
 aHj
@@ -57006,8 +57010,8 @@ aHj
 oqW
 aHj
 aHj
-aHj
-aHj
+oBy
+oBy
 aHj
 aHj
 aHj
@@ -57264,8 +57268,8 @@ oqW
 oqW
 aHj
 aHj
-aHj
-aHj
+oBy
+oBy
 aHj
 aHj
 aHj
@@ -57522,8 +57526,8 @@ oqW
 oqW
 aHj
 aHj
-aHj
-aHj
+oBy
+oBy
 aHj
 aHj
 aHj
@@ -57780,9 +57784,9 @@ oqW
 oqW
 aHj
 aHj
-aHj
-aHj
-aHj
+oBy
+oBy
+oBy
 aHj
 aHj
 aHj
@@ -58039,8 +58043,8 @@ oqW
 aHj
 aHj
 aHj
-aHj
-aHj
+oBy
+oBy
 aHj
 aHj
 aHj
@@ -58297,7 +58301,7 @@ oqW
 oqW
 aHj
 aHj
-aHj
+oBy
 aHj
 aHj
 aHj
@@ -58554,7 +58558,7 @@ cmZ
 oqW
 oqW
 aHj
-aHj
+oBy
 aHj
 aHj
 aHj
@@ -58811,7 +58815,7 @@ oqW
 vfT
 oqW
 aHj
-aHj
+oBy
 aHj
 aHj
 aHj
@@ -59068,7 +59072,7 @@ oqW
 aHj
 uOM
 aHj
-aHj
+oBy
 aHj
 aHj
 aHj
@@ -59325,7 +59329,7 @@ row
 vyG
 lvi
 aHj
-aHj
+oBy
 aHj
 aHj
 aHj
@@ -59582,7 +59586,7 @@ pXV
 aHj
 jeU
 aHj
-aHj
+oBy
 aHj
 aHj
 aHj
@@ -59839,8 +59843,8 @@ oqW
 nCe
 oqW
 aHj
-aHj
-aHj
+oBy
+oBy
 aHj
 aHj
 aHj
@@ -60097,7 +60101,7 @@ oqW
 oqW
 aHj
 aHj
-aHj
+oBy
 aHj
 aHj
 aHj
@@ -60354,7 +60358,7 @@ oqW
 oqW
 oqW
 aHj
-aHj
+oBy
 aHj
 aHj
 aHj
@@ -60611,7 +60615,7 @@ aHj
 oqW
 oqW
 qqK
-aHj
+oBy
 aHj
 aHj
 aHj
@@ -69351,10 +69355,10 @@ tvW
 eAj
 tgK
 jhl
-aHj
-aHj
-aHj
-aHj
+iAi
+iAi
+iAi
+iAi
 aHj
 mNW
 cWe
@@ -69608,10 +69612,10 @@ jhl
 jhl
 jhl
 jhl
-aHj
-aHj
-aHj
-aHj
+qyQ
+qyQ
+qyQ
+qyQ
 aHj
 nCO
 eJD
@@ -87858,8 +87862,8 @@ ftV
 sur
 ykQ
 mmc
-oyf
 qXM
+mdc
 wSp
 kSx
 xpq
@@ -88115,7 +88119,7 @@ mgE
 qHy
 piJ
 vOP
-lgL
+mUi
 mUi
 ffi
 mgE
