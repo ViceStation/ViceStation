@@ -16862,6 +16862,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 6
 	},
+/obj/machinery/computer/security/telescreen/turbine{
+	dir = 4;
+	pixel_x = -30
+	},
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
 "fNQ" = (
@@ -25807,10 +25811,6 @@
 /turf/open/floor/plasteel,
 /area/security/checkpoint/science/research)
 "iRo" = (
-/obj/structure/table,
-/obj/item/storage/toolbox/emergency{
-	pixel_y = 3
-	},
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
@@ -33112,11 +33112,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
 	dir = 4
 	},
-/obj/machinery/computer/security/telescreen/turbine{
-	dir = 1;
-	pixel_y = -30
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
+/obj/machinery/computer/turbine_computer{
+	dir = 1
+	},
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
 "lyh" = (
@@ -40596,7 +40595,10 @@
 	pixel_x = 5;
 	pixel_y = 30
 	},
-/obj/machinery/computer/turbine_computer,
+/obj/structure/table,
+/obj/item/storage/toolbox/emergency{
+	pixel_y = 3
+	},
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
 "oae" = (
@@ -118971,11 +118973,11 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
+aRL
+bSQ
+aRL
+aRL
+aRL
 aRL
 bSQ
 aRL
@@ -119228,12 +119230,12 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
+fza
+iCl
+fza
+iCl
+fza
 fza
 iCl
 fza
@@ -119485,12 +119487,12 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
+fza
+mHw
+oJs
+rHQ
+fza
 fza
 mHw
 oJs
@@ -119742,12 +119744,12 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
+iCl
+mHw
+sxp
+rHQ
+fza
 iCl
 mHw
 sxp
@@ -119999,12 +120001,12 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
+fza
+mHw
+sxp
+rHQ
+iCl
 fza
 mHw
 sxp
@@ -120256,12 +120258,12 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
 iCl
+iCl
+mHw
+sxp
+rHQ
+fza
 iCl
 mHw
 sxp
@@ -120510,15 +120512,15 @@ chc
 chc
 chc
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
 aRL
 aRL
 iCl
+fza
+mHw
+sxp
+rHQ
+fza
 fza
 mHw
 sxp
@@ -120767,14 +120769,14 @@ chc
 chc
 chc
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
 fza
 iCl
+fza
+fza
+fza
+acO
+fza
 fza
 fza
 fza
@@ -121024,15 +121026,15 @@ chc
 chc
 chc
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
 iCl
 aca
 bWp
+bWp
+acE
+acQ
+acQ
+acQ
 bWp
 acE
 acQ
@@ -121281,14 +121283,14 @@ chc
 chc
 chc
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
 fza
 iCl
+fza
+fza
+fza
+acW
+fza
 fza
 fza
 fza
@@ -121538,15 +121540,15 @@ chc
 chc
 chc
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
 bSQ
 aRL
 acz
+fza
+mHw
+adw
+rHQ
+fza
 fza
 mHw
 adw
@@ -121798,12 +121800,12 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
 iCl
+iCl
+mHw
+adw
+rHQ
+fza
 iCl
 mHw
 adw
@@ -122055,12 +122057,12 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
+fza
+mHw
+adw
+rHQ
+iCl
 fza
 mHw
 adw
@@ -122312,12 +122314,12 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
+iCl
+mHw
+adw
+rHQ
+fza
 iCl
 mHw
 adw
@@ -122569,12 +122571,12 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
+fza
+mHw
+aea
+rHQ
+fza
 fza
 mHw
 aea
@@ -122826,12 +122828,12 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
 aRL
+fza
+iCl
+fza
+iCl
+fza
 fza
 iCl
 fza
@@ -123083,11 +123085,11 @@ fza
 fza
 fza
 fza
-fza
-fza
-fza
-fza
-fza
+aRL
+aRL
+aRL
+aRL
+aRL
 aRL
 aRL
 aRL
