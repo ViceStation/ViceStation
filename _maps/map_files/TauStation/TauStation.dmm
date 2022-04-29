@@ -6820,7 +6820,7 @@
 "cuM" = (
 /obj/structure/table/wood,
 /obj/item/paper/fluff/jobs{
-	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>";
 	name = "Vice Station Initiative"
 	},
 /turf/open/floor/wood/wood_diagonal,
@@ -10574,7 +10574,7 @@
 	pixel_x = 4
 	},
 /obj/item/paper/fluff/jobs{
-	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>";
 	name = "Vice Station Initiative"
 	},
 /turf/open/floor/plasteel/dark,
@@ -19108,7 +19108,7 @@
 /obj/structure/table,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/item/paper/fluff/jobs{
-	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>";
 	name = "Vice Station Initiative"
 	},
 /turf/open/floor/carpet,
@@ -28399,7 +28399,7 @@
 	pixel_y = -28
 	},
 /obj/item/paper/fluff/jobs{
-	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>";
 	name = "Vice Station Initiative"
 	},
 /turf/open/floor/plasteel/dark,
@@ -43162,7 +43162,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/item/paper/fluff/jobs{
-	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>";
 	name = "Vice Station Initiative"
 	},
 /turf/open/floor/plasteel/vaporwave,
@@ -44348,7 +44348,7 @@
 	pixel_x = -4
 	},
 /obj/item/paper/fluff/jobs{
-	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>";
 	name = "Vice Station Initiative"
 	},
 /turf/open/floor/plasteel,
@@ -47598,7 +47598,7 @@
 /area/tcommsat/computer)
 "qBz" = (
 /obj/item/paper/fluff/jobs{
-	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>";
 	name = "Vice Station Initiative"
 	},
 /turf/open/floor/plasteel,
@@ -48093,7 +48093,7 @@
 	dir = 6
 	},
 /obj/item/paper/fluff/jobs{
-	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>";
 	name = "Vice Station Initiative"
 	},
 /turf/open/floor/plasteel,
@@ -50469,7 +50469,7 @@
 	pixel_y = 24
 	},
 /obj/item/paper/fluff/jobs{
-	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>/n";
+	info = "Hello, and thank you for signing up as an employee for the NanoTrasen Vice Station Program.<BR>\n Please ensure you stay alert, as danger lurks around every corner.<BR>\n To ensure your own safety, please ensure you follow all relevant measures of space law, and cooperate with your security and command personnel.<BR>\n Our state of the art measures allow you all the safety you need to live out your wildest fantasies, courtesy of our state-of-the-art infinite dormitories system located near the pool. <BR>";
 	name = "Vice Station Initiative"
 	},
 /turf/open/floor/plasteel,
