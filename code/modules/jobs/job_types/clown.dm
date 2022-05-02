@@ -61,3 +61,7 @@
 		H.fully_replace_character_name(H.real_name, pick(GLOB.clown_names))
 	H.dna.add_mutation(CLOWNMUT)
 	H.dna.add_mutation(SMILE)
+
+/proc/_isclownjob(mob/honker)
+	var/datum/job/clowncheck = SSjob.GetJob(honker.job)
+	return istype(clowncheck, /datum/job/clown)

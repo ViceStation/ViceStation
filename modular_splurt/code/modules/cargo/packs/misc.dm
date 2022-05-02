@@ -66,6 +66,23 @@
 	crate_name = "9mm pistols"
 	crate_type = /obj/structure/closet/crate/secure/weapon
 
+/datum/supply_pack/misc/m9pistols
+	name = "9mm magazines"
+	desc = "A pack of 9 9mm magazines  of rubber for the 9mm Handgun."
+	access = ACCESS_QM
+	cost = 2500
+	contains = list(/obj/item/ammo_box/magazine/m9/rubber,
+					/obj/item/ammo_box/magazine/m9/rubber,
+					/obj/item/ammo_box/magazine/m9/rubber,
+					/obj/item/ammo_box/magazine/m9/rubber,
+					/obj/item/ammo_box/magazine/m9/rubber,
+					/obj/item/ammo_box/magazine/m9/rubber,
+					/obj/item/ammo_box/magazine/m9/rubber,
+					/obj/item/ammo_box/magazine/m9/rubber,
+					/obj/item/ammo_box/magazine/m9/rubber)
+	crate_name = "9mm magazines"
+	crate_type = /obj/structure/closet/crate/secure/weapon
+
 /datum/supply_pack/misc/c22lrammo
 	name = ".22 ammo boxes"
 	desc = "A pack of 6 boxes of .22 ammo."
@@ -159,7 +176,6 @@
 	crate_name = "Hunting shotguns"
 	crate_type = /obj/structure/closet/crate/secure/weapon
 
-
 /datum/supply_pack/misc/carpet_exotic
 	name = "Exotic Carpet Crate"
 	desc = "Exotic carpets straight from Space Russia, for all your decorating needs. Contains 100 tiles each of 10 different flooring patterns."
@@ -185,18 +201,6 @@
 					/obj/item/stack/tile/carpet/monochrome/fifty,
 					/obj/item/stack/tile/carpet/monochrome/fifty)
 	crate_name = "exotic carpet crate"
-
-/datum/supply_pack/misc/prospacillin //size changing should be hard to achieve; so enjoy the price tag.
-	name = "Prospacillin Bottle"
-	desc = "An extremely expensive solution of growth serum known as Prospacillin. Effects are permanent upon consumption, and growth is slow."
-	cost = 100000
-	contains = list(/obj/item/reagent_containers/food/drinks/prospacillin)
-
-/datum/supply_pack/misc/diminicillin //size changing should be hard to achieve; so enjoy the price tag.
-	name = "Diminicillin Bottle"
-	desc = "An extremely expensive solution of shrinking serum known as Diminicillin. Effects are permanent upon consumption, and shrinking is slow."
-	cost = 100000
-	contains = list(/obj/item/reagent_containers/food/drinks/diminicillin)
 
 /datum/supply_pack/misc/microbricks
 	name = "Microbricks Crate"
@@ -289,8 +293,8 @@
 					/obj/effect/spawner/lootdrop/brokenhuds,
 					/obj/effect/spawner/lootdrop/healing_kits,
 					/obj/effect/spawner/lootdrop/breathing_tanks,
-					/obj/effect/spawner/lootdrop/breathing_masks,
-					/obj/item/circuitboard/machine/bluespace_miner,
+					/obj/item/gunpart/riflevarmintsotck,
+					/obj/item/gunpart/riflevarmintbarrel,
 					/obj/item/stack/sheet/bluespace_crystal
 					)
 	crate_name = "surplus crate"
@@ -301,8 +305,8 @@
 		var/item = pick(contains)
 		new item(scrate1)
 
-/obj/item/stack/ore/diamond/fifty
-	amount = 50
+/obj/item/stack/sheet/mineral/diamond/five
+	amount = 5
 
 /datum/supply_pack/misc/random10k
 	name = "10k Surplus Crate"
@@ -323,7 +327,7 @@
 					/obj/item/storage/belt/military,
 					/obj/item/pickaxe/drill,
 					/obj/item/crowbar/large,
-					/obj/item/stack/ore/diamond/fifty,
+					/obj/item/stack/sheet/mineral/diamond/five,
 					/obj/item/clothing/gloves/tackler/combat/insulated,
 					/obj/item/export/bottle/rum,
 					/obj/item/export/bottle/gin,
@@ -353,12 +357,12 @@
 					/obj/effect/spawner/lootdrop/tool_box,
 					/obj/effect/spawner/lootdrop/prison_contraband,
 					/obj/effect/spawner/lootdrop/cig_packs,
-					/obj/effect/spawner/lootdrop/brokenhuds,
+					/obj/item/gunpart/rifle308barrel,
 					/obj/effect/spawner/lootdrop/healing_kits,
-					/obj/effect/spawner/lootdrop/breathing_tanks,
-					/obj/effect/spawner/lootdrop/breathing_masks,
+					/obj/item/gunpart/riflebrush2barrel,
+					/obj/item/gunpart/riflebrush2stock,
 					/obj/item/circuitboard/machine/cryptominer,
-					/obj/item/stack/sheet/bluespace_crystal
+					/obj/item/gunpart/rifle308sotck
 					)
 	crate_name = "surplus crate"
 	crate_type = /obj/structure/closet/crate

@@ -13,14 +13,21 @@
 				/obj/item/toy/fluff/tennis_poly = 4,
 				/obj/item/toy/fluff/tennis_poly/tri = 2,
 				/obj/item/toy/fluff/bone_poly = 4,
-				/obj/item/toy/fluff/frisbee_poly = 4
+				/obj/item/toy/fluff/frisbee_poly = 4,
+				/obj/item/clothing/neck/petcollar/spike = 5,
+				/obj/item/clothing/neck/petcollar/holo = 5,
+				/obj/item/clothing/neck/petcollar/casino = 5,
+				/obj/item/clothing/neck/petcollar/handmade = 5
 				)
 	contraband = list(
 				/obj/item/clothing/neck/petcollar/locked = 2,
 				/obj/item/clothing/neck/petcollar/locked/ribbon = 2,
 				/obj/item/clothing/neck/petcollar/locked/leather = 2,
 				/obj/item/key/collar = 2,
-				/obj/item/dildo/knotted = 3
+				/obj/item/dildo/knotted = 3,
+				/obj/item/clothing/neck/petcollar/locked/spike = 2,
+				/obj/item/clothing/neck/petcollar/locked/holo = 2,
+				/obj/item/clothing/neck/petcollar/locked/casino = 2
 				)
 	premium = list(
 				/obj/item/toy/fluff/tennis_poly/tri/squeak = 1,

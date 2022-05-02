@@ -240,9 +240,9 @@
 /datum/uplink_item/dangerous/powerfist
 	name = "Power Fist"
 	desc = "The power-fist is a metal gauntlet with a built-in piston-ram powered by an external gas supply.\
-		 Upon hitting a target, the piston-ram will extend forward to make contact for some serious damage. \
-		 Using a wrench on the piston valve will allow you to tweak the amount of gas used per punch to \
-		 deal extra damage and hit targets further. Use a screwdriver to take out any attached tanks."
+		Upon hitting a target, the piston-ram will extend forward to make contact for some serious damage. \
+		Using a wrench on the piston valve will allow you to tweak the amount of gas used per punch to \
+		deal extra damage and hit targets further. Use a screwdriver to take out any attached tanks."
 	item = /obj/item/melee/powerfist
 	cost = 8
 
@@ -293,3 +293,13 @@
 	item = /obj/item/gun/magic/staff/motivation
 	cost = 10
 	purchasable_from = UPLINK_NUKE_OPS | UPLINK_CLOWN_OPS
+
+/datum/uplink_item/device_tools/tc_rod
+	name = "Telecrystal Fuel Rod"
+	desc = "This special fuel rod has eight material slots that can be inserted with telecrystals, \
+			once the rod has been fully depleted, you will be able to harvest the extra telecrystals. \
+			Please note: This Rod fissiles much faster than it's regular counterpart, it doesn't take \
+			much to overload the reactor with these..."
+	item = /obj/item/fuel_rod/material/telecrystal
+	cost = 7
+	restricted_roles = list("Chief Engineer", "Station Engineer", "Atmospheric Technician")
