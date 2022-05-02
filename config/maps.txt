@@ -15,53 +15,9 @@ Format:
 	disabled (disables the map)
 endmap
 
-map boxstation
+map lambdastation
 	default
-	#voteweight 1.5
 endmap
 
-map metastation
-	minplayers 25
-	#voteweight 0.5
-endmap
-
-map pubbystation
-endmap
-
-map omegastation
-	maxplayers 35
-endmap
-
-map deltastation
-	minplayers 50
-endmap
-
-map smexistation
-	minplayers 25
-endmap
-
-map runtimestation
-endmap
-
-map spookystation
-	minplayers 150
-endmap
-
-map festivestation
-	minplayers 150
-endmap
-
-map multiz_debug
-endmap
-
-map kilostation
-endmap
-
-map smolstation
-endmap
-
-map snaxiteststation
-endmap
-
-map taustation
+map vice_snaxi
 endmap
