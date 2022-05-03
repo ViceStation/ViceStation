@@ -1815,12 +1815,6 @@
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
-"iL" = (
-/obj/structure/chair/comfy/black{
-	dir = 4
-	},
-/turf/open/floor/plasteel/grimy,
-/area/command/bridge)
 "iN" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet,
@@ -2668,6 +2662,10 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/engine,
 /area/science/storage)
+"nS" = (
+/obj/machinery/vending/wardrobe/bridgeofficer_wardrobe,
+/turf/open/floor/plasteel/dark,
+/area/command/bridge)
 "nT" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
@@ -5434,6 +5432,13 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/science)
+"Bg" = (
+/obj/effect/landmark/start/bridgeofficer,
+/obj/structure/chair/comfy/black{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/command/bridge)
 "Bh" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
@@ -9454,6 +9459,7 @@
 /obj/structure/chair/comfy/black{
 	dir = 8
 	},
+/obj/effect/landmark/start/bridgeofficer,
 /turf/open/floor/plasteel/grimy,
 /area/command/bridge)
 "UJ" = (
@@ -9477,7 +9483,7 @@
 /turf/open/floor/plating,
 /area/maintenance/department/science)
 "UM" = (
-/obj/structure/closet/emcloset,
+/obj/structure/closet/secure_closet/bridgesec,
 /turf/open/floor/plasteel/dark,
 /area/command/bridge)
 "UN" = (
@@ -41857,7 +41863,7 @@ Vw
 WX
 WX
 AJ
-Ax
+Bg
 AS
 WX
 WX
@@ -42369,7 +42375,7 @@ ah
 ah
 ah
 WX
-TC
+nS
 Ax
 Ax
 zq
@@ -42626,8 +42632,8 @@ ah
 ah
 ah
 WX
-UM
-iL
+TC
+Ax
 Ax
 po
 Xb
@@ -69009,7 +69015,7 @@ ah
 ah
 ah
 ah
-ah
+FC
 ah
 ah
 ah
@@ -69266,9 +69272,9 @@ ah
 ah
 ah
 ah
-ah
-ah
-ah
+FC
+FC
+FC
 ah
 ah
 ah
@@ -69523,16 +69529,16 @@ ah
 ah
 ah
 ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
+FC
+FC
+FC
+FC
+FC
+FC
+FC
+FC
+FC
+FC
 ah
 ah
 ah
@@ -69789,7 +69795,7 @@ ah
 ah
 ah
 ah
-ah
+FC
 ah
 ah
 ah
@@ -70046,10 +70052,10 @@ ah
 ah
 ah
 ah
-ah
-ah
-ah
-ah
+FC
+FC
+FC
+FC
 ah
 ah
 ah
@@ -70306,7 +70312,7 @@ ah
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -70563,7 +70569,7 @@ ah
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -70820,7 +70826,7 @@ ah
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -71077,7 +71083,7 @@ ah
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -71334,7 +71340,7 @@ ah
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -71591,7 +71597,7 @@ ah
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -71848,7 +71854,7 @@ ah
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -72105,7 +72111,7 @@ ah
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -72362,7 +72368,7 @@ ah
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -72619,7 +72625,7 @@ ah
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -72876,7 +72882,7 @@ ah
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -73121,7 +73127,7 @@ ah
 ah
 ah
 ah
-ah
+FC
 vI
 vI
 vI
@@ -73133,7 +73139,7 @@ vI
 vI
 vI
 vI
-ah
+FC
 ah
 ah
 ah
@@ -73378,19 +73384,19 @@ ah
 ah
 ah
 ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
-ah
+FC
+FC
+FC
+FC
+FC
+FC
+FC
+FC
+FC
+FC
+FC
+FC
+FC
 ah
 ah
 ah

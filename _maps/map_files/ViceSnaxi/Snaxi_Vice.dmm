@@ -1422,6 +1422,13 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing,
 /turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "acJ" = (
@@ -10870,6 +10877,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
+"cxU" = (
+/turf/open/openspace/icemoon,
+/area/icemoon/surface/outdoors/unexplored/rivers/no_monsters)
 "cxX" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
@@ -13349,6 +13359,23 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
+"dxf" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/end{
+	dir = 8
+	},
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/lattice/catwalk,
+/turf/open/openspace/icemoon,
+/area/engineering/main/reactor_core)
 "dxF" = (
 /obj/machinery/door/airlock/atmos{
 	name = "Atmospherics";
@@ -14242,17 +14269,6 @@
 	},
 /turf/open/floor/wood,
 /area/service/bar)
-"dVF" = (
-/obj/structure/table/wood,
-/obj/item/storage/firstaid/brute{
-	pixel_x = 5
-	},
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/toxin{
-	pixel_x = -5
-	},
-/turf/open/floor/wood,
-/area/command/blueshieldoffice)
 "dVG" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -16171,16 +16187,7 @@
 /turf/open/floor/plating,
 /area/hallway/primary/central)
 "eOT" = (
-/obj/structure/table/wood,
-/obj/machinery/recharger,
-/obj/item/radio/off{
-	pixel_x = 6;
-	pixel_y = 4
-	},
-/obj/item/stack/sheet/mineral/wood/fifty{
-	amount = 20
-	},
-/obj/item/storage/box/matches,
+/obj/structure/closet/secure_closet/blueshield,
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "eOZ" = (
@@ -17061,6 +17068,9 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
+"fkM" = (
+/turf/closed/wall/mineral/lead,
+/area/icemoon/surface/outdoors)
 "fkN" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L14"
@@ -17161,6 +17171,7 @@
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/gun/energy/ionrifle,
+/obj/item/gun/energy/temperature,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "fne" = (
@@ -28425,16 +28436,11 @@
 /turf/open/floor/plasteel,
 /area/command/heads_quarters/ce)
 "ksi" = (
-/obj/structure/table/wood,
-/obj/item/storage/toolbox/mechanical{
-	pixel_x = -2;
-	pixel_y = -1
-	},
-/obj/item/multitool,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 4
 	},
-/turf/open/floor/carpet,
+/obj/structure/closet/secure_closet/blueshield,
+/turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "ksq" = (
 /obj/effect/turf_decal/bot_white,
@@ -30219,6 +30225,9 @@
 /obj/structure/bed/double,
 /obj/item/bedsheet/blue/double,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/carpet,
 /area/command/blueshielquarters2)
 "lkI" = (
@@ -31846,6 +31855,7 @@
 	},
 /obj/structure/rack,
 /obj/item/clothing/suit/armor/laserproof,
+/obj/item/clothing/suit/armor/bulletproof,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "lZj" = (
@@ -36080,6 +36090,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
 	dir = 1
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/carpet,
 /area/command/blueshielquarters3)
 "nTQ" = (
@@ -40059,6 +40072,8 @@
 	pixel_y = 10
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/clothing/suit/brigdoc/armor,
+/obj/item/clothing/head/helmet/brigdoc,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "pDS" = (
@@ -56910,7 +56925,10 @@
 /obj/structure/rack,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/gun/energy/temperature,
+/obj/item/gun/energy/e_gun,
+/obj/item/gun/energy/e_gun,
+/obj/item/gun/energy/e_gun,
+/obj/item/gun/energy/e_gun,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "xrL" = (
@@ -98727,7 +98745,7 @@ xUL
 xUL
 xiw
 gbc
-dVF
+eOT
 ksi
 eOT
 pbl
@@ -116927,12 +116945,12 @@ afg
 xEs
 afk
 xEs
+xiw
 ydp
 ydp
 ydp
 ydp
-ydp
-yhx
+aao
 yhx
 yhx
 yhx
@@ -117184,12 +117202,12 @@ afg
 aeS
 afl
 aeX
+vUs
+pYr
 ydp
 ydp
 ydp
-ydp
-ydp
-yhx
+aao
 yhx
 yhx
 yhx
@@ -117441,10 +117459,10 @@ aec
 aeT
 afm
 aeZ
-ydp
-ydp
-ydp
-ydp
+vUs
+pYr
+pYr
+pYr
 ydp
 aao
 aao
@@ -117693,27 +117711,27 @@ avT
 avT
 avT
 avT
-ydp
+fkM
 aec
 aeT
 afo
 aeZ
-ydp
-ydp
-ydp
-ydp
-ydp
+vUs
+pYr
+dxf
+pYr
+pYr
+cxU
+cxU
+cxU
+cxU
+cxU
+cxU
 aao
 aao
 aao
 aao
 aao
-aao
-aao
-yhx
-yhx
-yhx
-yhx
 yhx
 yhx
 yhx
@@ -117950,7 +117968,7 @@ avT
 avT
 avT
 avT
-ydp
+fkM
 aau
 aaz
 aaQ
@@ -117965,12 +117983,12 @@ abC
 abC
 abC
 abC
+cxU
 aao
 aao
 aao
 aao
 aao
-yhx
 yhx
 yhx
 yhx
@@ -118222,12 +118240,12 @@ acT
 adb
 adi
 abC
+cxU
+cxU
+cxU
+cxU
 aao
 aao
-aao
-aao
-aao
-yhx
 yhx
 yhx
 yhx
@@ -118482,9 +118500,9 @@ abC
 adv
 adC
 adF
+cxU
 aao
 aao
-yhx
 yhx
 yhx
 yhx
@@ -118736,10 +118754,10 @@ acV
 acB
 acr
 acz
-adv
+acS
 adD
 adD
-aao
+cxU
 aao
 yhx
 yhx
@@ -118993,10 +119011,10 @@ ach
 acB
 acr
 acz
-adv
+acS
 adD
 adD
-aao
+cxU
 aao
 yhx
 yhx
@@ -119250,10 +119268,10 @@ acX
 acB
 acr
 acz
-adv
+acS
 adD
 adD
-aao
+cxU
 aao
 yhx
 yhx
@@ -119510,7 +119528,7 @@ adp
 adB
 adE
 adD
-aao
+cxU
 aao
 yhx
 yhx
@@ -119767,7 +119785,7 @@ adp
 adB
 adF
 adD
-aao
+cxU
 aao
 yhx
 yhx
@@ -120021,10 +120039,10 @@ acB
 ade
 acr
 acz
-adv
+acS
 adD
 adD
-aao
+cxU
 aao
 yhx
 yhx
@@ -120278,10 +120296,10 @@ acB
 ade
 acr
 acz
-adv
+acS
 adD
 adD
-aao
+cxU
 aao
 yhx
 yhx
@@ -120535,10 +120553,10 @@ acY
 adg
 adn
 abC
-adv
+acS
 adD
 adD
-aao
+cxU
 aao
 yhx
 yhx
@@ -120792,10 +120810,10 @@ acZ
 adh
 ado
 abC
-adv
+acS
 adD
 adD
-aao
+cxU
 aao
 yhx
 yhx
@@ -121052,7 +121070,7 @@ abC
 adv
 aee
 adE
-aao
+cxU
 aao
 yhx
 yhx
@@ -121297,7 +121315,7 @@ ydp
 ydp
 ydp
 ydp
-ydp
+pYr
 acI
 acS
 acW
@@ -121306,12 +121324,12 @@ adq
 adq
 adq
 adr
-adv
-adv
-adv
+acS
+acS
+acS
+cxU
 aao
 aao
-yhx
 yhx
 yhx
 yhx
@@ -121554,21 +121572,21 @@ ydp
 ydp
 ydp
 ydp
-ydp
+pYr
+cxU
+cxU
+cxU
+cxU
+cxU
+cxU
+cxU
+cxU
+cxU
+cxU
+cxU
+cxU
 aao
 aao
-aao
-aao
-aao
-aao
-aao
-aao
-aao
-aao
-aao
-aao
-aao
-yhx
 yhx
 yhx
 yhx
@@ -121825,7 +121843,7 @@ aao
 aao
 aao
 aao
-yhx
+aao
 yhx
 yhx
 yhx
@@ -122067,6 +122085,9 @@ ydp
 ydp
 ydp
 ydp
+aao
+aao
+aao
 yhx
 yhx
 yhx
@@ -122076,13 +122097,10 @@ yhx
 yhx
 yhx
 yhx
-yhx
-yhx
-yhx
-yhx
-yhx
-yhx
-yhx
+aao
+aao
+aao
+aao
 yhx
 yhx
 yhx
