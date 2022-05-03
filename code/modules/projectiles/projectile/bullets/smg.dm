@@ -1,10 +1,10 @@
 // .45 (M1911 & C20r)
 
 /obj/item/projectile/bullet/c45
-	name = ".45 bullet"
-	damage = 30
-	wound_bonus = -10
-	wound_falloff_tile = -10
+	name = ".45 rubber bullet"
+	damage = 10
+	stamina = 30
+	sharpness = NONE
 
 /obj/item/projectile/bullet/c45_cleaning
 	name = ".45 bullet"

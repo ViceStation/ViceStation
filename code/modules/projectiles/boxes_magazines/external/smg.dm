@@ -69,8 +69,27 @@
 	icon_state = "c20r45-[round(ammo_count(),2)]"
 
 /obj/item/ammo_box/magazine/tommygunm45
+	name = "stick magazine (.45)"
+	icon_state = "grease"
+	icon = 'modular_splurt/icons/obj/ammo.dmi'
+	ammo_type = /obj/item/ammo_casing/c45/lethal
+	caliber = ".45"
+	max_ammo = 30
+
+/obj/item/ammo_box/magazine/tommygunm45/update_icon()
+	..()
+	icon_state = "grease-[ammo_count() ? "30" : "0"]"
+
+
+/obj/item/ammo_box/magazine/tommygunm45/r50
 	name = "drum magazine (.45)"
 	icon_state = "drum45"
-	ammo_type = /obj/item/ammo_casing/c45
-	caliber = ".45"
 	max_ammo = 50
+
+/obj/item/ammo_box/magazine/tommygunm45/r30/update_icon()
+	..()
+	icon_state = "drum45-[ammo_count() ? "50" : "0"]"
+
+/obj/item/ammo_box/magazine/tommygunm45/rubber
+	name = "stick magazine (.45 Rubber)"
+	ammo_type = /obj/item/ammo_casing/c45

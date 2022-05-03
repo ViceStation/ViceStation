@@ -1,9 +1,3 @@
-/obj/item/projectile/bullet/c45 // Yes I know I am changing how .45 weapons work by making the basic ammo less-than-lethal. This just makes this easier in the long run with mags
-	name = ".45 rubber bullet"
-	damage = 10
-	stamina = 30
-	sharpness = NONE
-
 //I am an idiot, fucking coding oversights. If one ever makes a child of a object, MAKE SURE TO ADD IN VALUES TO ADJUST FROM PARENT 	stamina = 30 will be a reminder to that.
 
 /obj/item/projectile/bullet/c45/lethal

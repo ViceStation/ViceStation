@@ -31,6 +31,7 @@
 	suit = /obj/item/clothing/suit/armor/vest
 	backpack_contents = list(/obj/item/storage/box/beanbag=1,/obj/item/book/granter/action/drink_fling=1)
 	shoes = /obj/item/clothing/shoes/laceup
+	accessory = /obj/item/clothing/accessory/permit/bar
 
 /datum/job/bartender/after_spawn(mob/living/H, mob/M, latejoin = FALSE)
 	. = ..()

@@ -235,13 +235,15 @@
 	name = "\improper Thompson SMG"
 	desc = "Based on the classic 'Chicago Typewriter'."
 	icon_state = "tommygun"
+	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
 	item_state = "shotgun"
 	w_class = WEIGHT_CLASS_BULKY
 	slot_flags = 0
 	mag_type = /obj/item/ammo_box/magazine/tommygunm45
 	fire_sound = 'sound/weapons/gunshot_smg.ogg'
 	can_suppress = FALSE
-	burst_size = 4
+	burst_size = 3
+	spread = 5
 	burst_shot_delay = 1
 
 /obj/item/gun/ballistic/automatic/ar
