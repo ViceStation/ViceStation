@@ -323,9 +323,6 @@
 /turf/open/floor/plasteel,
 /area/science/circuit)
 "cv" = (
-/obj/structure/railing{
-	dir = 4
-	},
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 1;
 	pixel_y = 6
@@ -465,10 +462,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/science)
-"cY" = (
-/obj/structure/railing,
-/turf/open/floor/plating/snowed/smoothed/icemoon,
-/area/engineering/atmos)
 "da" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -1726,9 +1719,6 @@
 /turf/open/floor/plasteel/white,
 /area/science/mixing)
 "im" = (
-/obj/structure/railing{
-	dir = 1
-	},
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
@@ -1984,9 +1974,6 @@
 /area/maintenance/department/science)
 "jF" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
-	dir = 8
-	},
-/obj/structure/railing{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -2454,6 +2441,12 @@
 	},
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/maintenance/department/science)
+"mu" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/service/chapel/main/monastery)
 "mA" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/old,
@@ -2526,12 +2519,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
-"mX" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/command/bridge)
 "mY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
@@ -2576,14 +2563,7 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engineering/atmos)
-"ni" = (
-/obj/structure/railing,
-/turf/open/floor/plasteel/dark,
-/area/command/bridge)
 "nk" = (
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/structure/stairs{
 	dir = 1;
 	icon_state = "stairs_t"
@@ -2986,9 +2966,6 @@
 /turf/open/floor/plating,
 /area/maintenance/bar)
 "po" = (
-/obj/structure/railing{
-	dir = 4
-	},
 /turf/open/floor/plasteel/stairs/left{
 	dir = 1
 	},
@@ -3114,6 +3091,9 @@
 	dir = 4;
 	light_color = "#d8b1b1"
 	},
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/mine/living_quarters)
 "pV" = (
@@ -3219,13 +3199,6 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/mine/production)
-"qw" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/machinery/light,
-/turf/open/floor/plasteel,
-/area/engineering/atmos)
 "qy" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = "12"
@@ -3374,12 +3347,6 @@
 /obj/effect/landmark/xeno_spawn,
 /turf/open/floor/plating,
 /area/maintenance/bar)
-"rg" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plasteel/grimy,
-/area/command/bridge)
 "rh" = (
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plating,
@@ -3525,14 +3492,6 @@
 	},
 /turf/open/floor/carpet,
 /area/service/chapel/main/monastery)
-"rV" = (
-/obj/structure/stairs{
-	dir = 8;
-	icon_state = "stairs_t"
-	},
-/obj/structure/railing,
-/turf/open/floor/plasteel/dark,
-/area/command/bridge)
 "rX" = (
 /obj/machinery/holopad,
 /turf/open/floor/plasteel/white,
@@ -3801,16 +3760,6 @@
 /obj/effect/turf_decal/stripes/box,
 /turf/open/floor/plating,
 /area/command/bridge)
-"sU" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/stairs{
-	dir = 1;
-	icon_state = "stairs_t"
-	},
-/turf/open/floor/plating,
-/area/engineering/atmos)
 "sW" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1,
 /turf/open/floor/plasteel/dark,
@@ -3872,9 +3821,6 @@
 /turf/open/floor/plasteel/dark,
 /area/service/chapel/main/monastery)
 "tk" = (
-/obj/structure/railing{
-	dir = 8
-	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/engineering/atmos)
 "tm" = (
@@ -4083,7 +4029,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/obj/structure/railing,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
 "uu" = (
@@ -5001,12 +4946,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science)
-"yJ" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/command/bridge)
 "yM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/warning{
@@ -5026,10 +4965,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/circuit)
-"yT" = (
-/obj/structure/railing,
-/turf/open/floor/plasteel,
-/area/engineering/atmos)
 "yU" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/department/security)
@@ -5116,9 +5051,6 @@
 /turf/open/floor/plating,
 /area/science/xenobiology)
 "zq" = (
-/obj/structure/railing{
-	dir = 8
-	},
 /turf/open/floor/plasteel/stairs/right{
 	dir = 1
 	},
@@ -6107,10 +6039,16 @@
 /obj/structure/railing{
 	dir = 10
 	},
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
 "Ed" = (
 /obj/structure/stairs,
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/service/chapel/main/monastery)
 "Ee" = (
@@ -6145,10 +6083,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel,
 /area/mine/living_quarters)
-"Em" = (
-/obj/structure/railing,
-/turf/open/floor/plasteel/grimy,
-/area/command/bridge)
 "En" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/cable,
@@ -6446,7 +6380,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
-/obj/structure/railing,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
 "FF" = (
@@ -7189,9 +7122,6 @@
 /obj/effect/turf_decal/trimline/purple/filled/corner{
 	dir = 4
 	},
-/obj/structure/railing{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
@@ -7338,6 +7268,7 @@
 	dir = 4;
 	icon_state = "stairs_t"
 	},
+/obj/structure/railing,
 /turf/open/floor/plasteel,
 /area/science)
 "Jx" = (
@@ -7798,6 +7729,9 @@
 /obj/structure/railing{
 	dir = 6
 	},
+/obj/structure/railing{
+	dir = 4
+	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
 "LG" = (
@@ -7925,10 +7859,6 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/white,
 /area/science/mixing)
-"Me" = (
-/obj/structure/railing,
-/turf/open/floor/plasteel/dark,
-/area/service/chapel/main/monastery)
 "Mf" = (
 /obj/effect/turf_decal/delivery/red,
 /obj/structure/fans/tiny,
@@ -8386,12 +8316,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plasteel/grimy,
 /area/service/chapel/main/monastery)
-"Oq" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/engineering/atmos)
 "Ou" = (
 /obj/machinery/conveyor{
 	dir = 10;
@@ -9107,14 +9031,6 @@
 "SA" = (
 /turf/open/floor/plating,
 /area/maintenance/bar)
-"SB" = (
-/obj/structure/stairs{
-	dir = 4;
-	icon_state = "stairs_t"
-	},
-/obj/structure/railing,
-/turf/open/floor/plasteel/dark,
-/area/command/bridge)
 "SE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/contraband/yes_erp{
@@ -9228,9 +9144,6 @@
 "Tg" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
-	},
-/obj/structure/railing{
-	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
@@ -40637,7 +40550,7 @@ sa
 GN
 sa
 op
-YN
+vI
 DX
 Vw
 Vw
@@ -41666,7 +41579,7 @@ GY
 sa
 nd
 OR
-YN
+vI
 DX
 Vw
 Vw
@@ -41924,7 +41837,7 @@ sa
 nd
 vI
 vI
-YN
+vI
 DX
 Vw
 Vw
@@ -42182,7 +42095,7 @@ nd
 vI
 vI
 te
-YN
+vI
 YN
 Nb
 YN
@@ -42201,7 +42114,7 @@ ah
 WX
 UM
 Ax
-Em
+Ax
 VJ
 WX
 EZ
@@ -42443,7 +42356,7 @@ vI
 vI
 vI
 vI
-YN
+vI
 pU
 VE
 ah
@@ -42458,7 +42371,7 @@ ah
 WX
 TC
 Ax
-rg
+Ax
 zq
 Xb
 wH
@@ -42715,12 +42628,12 @@ ah
 WX
 UM
 iL
-Em
+Ax
 po
 Xb
 wH
-ni
-yJ
+DH
+DH
 PJ
 tr
 BT
@@ -42972,11 +42885,11 @@ ah
 WX
 WX
 iP
-rg
+Ax
 zb
 WX
 mp
-SB
+mp
 Xa
 DH
 GR
@@ -44775,7 +44688,7 @@ WX
 mM
 WX
 Fe
-rV
+Fe
 Xa
 DH
 vP
@@ -45032,8 +44945,8 @@ WX
 hA
 WX
 In
-mX
-Xa
+DH
+DH
 DH
 tr
 iA
@@ -59028,7 +58941,7 @@ hS
 vI
 vI
 GK
-cY
+tk
 aC
 UN
 aB
@@ -59295,9 +59208,9 @@ Hq
 jm
 jm
 jm
-yT
+jm
 Ko
-Ko
+jm
 UN
 ah
 ah
@@ -59554,7 +59467,7 @@ jm
 jm
 UN
 nk
-qw
+vC
 UN
 ah
 VE
@@ -59810,8 +59723,8 @@ jm
 jm
 jm
 UN
-sU
-Ko
+nk
+jm
 UN
 VE
 VE
@@ -60066,7 +59979,7 @@ jm
 jm
 jm
 jm
-Oq
+jm
 ld
 im
 UN
@@ -60439,7 +60352,7 @@ kS
 zo
 Hf
 Wk
-Hf
+mu
 Ed
 kS
 VE
@@ -60695,7 +60608,7 @@ Dc
 kS
 Hf
 Hf
-Me
+Hf
 Ok
 VH
 kS

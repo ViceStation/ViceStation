@@ -298,6 +298,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+/obj/item/shovel,
 /turf/open/floor/plasteel/dark,
 /area/engineering/main/reactor_control)
 "aaB" = (
@@ -315,6 +316,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+/obj/item/shovel,
 /turf/open/floor/plasteel/dark,
 /area/engineering/main/reactor_control)
 "aaC" = (
@@ -1195,9 +1197,6 @@
 	},
 /turf/open/floor/engine,
 /area/engineering/main/reactor_core)
-"acg" = (
-/turf/open/openspace/icemoon/ruins,
-/area/icemoon/surface/outdoors)
 "ach" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/item/fuel_rod/material,
@@ -1328,7 +1327,7 @@
 /turf/open/floor/plasteel,
 /area/cargo/qm)
 "acw" = (
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/atmos)
 "acx" = (
 /obj/machinery/button/door{
@@ -1430,7 +1429,7 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "acJ" = (
 /obj/effect/turf_decal/stripes/line{
@@ -1499,7 +1498,7 @@
 /turf/open/floor/engine,
 /area/engineering/main/reactor_core)
 "acS" = (
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "acT" = (
 /obj/effect/turf_decal/stripes/line{
@@ -1528,7 +1527,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "acX" = (
 /obj/effect/turf_decal/stripes/line{
@@ -1691,7 +1690,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "adr" = (
 /obj/structure/lattice/catwalk,
@@ -1699,7 +1698,7 @@
 	dir = 4
 	},
 /obj/structure/railing,
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "ads" = (
 /obj/effect/turf_decal/tile/brown{
@@ -1754,7 +1753,7 @@
 /area/medical/virology)
 "adv" = (
 /obj/structure/lattice,
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "adw" = (
 /obj/machinery/firealarm{
@@ -1816,7 +1815,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/junction,
 /obj/machinery/atmospherics/pipe/heat_exchanging/junction/layer1,
 /obj/structure/lattice,
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "adC" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
@@ -1826,7 +1825,7 @@
 	dir = 6
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "adD" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
@@ -1836,7 +1835,7 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "adE" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
@@ -1846,7 +1845,7 @@
 	dir = 9
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "adF" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
@@ -1856,7 +1855,7 @@
 	dir = 5
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "adG" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
@@ -2132,7 +2131,7 @@
 	dir = 10
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/engineering/main/reactor_core)
 "aef" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
@@ -2846,7 +2845,7 @@
 /turf/open/floor/plasteel,
 /area/engineering/main)
 "afA" = (
-/turf/open/openspace/icemoon/ruins,
+/turf/open/openspace/icemoon,
 /area/security/execution/education)
 "afQ" = (
 /obj/structure/cable{
@@ -5887,6 +5886,19 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/exit/departure_lounge)
+"aRw" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/command{
+	name = "Blueshield's Quarters";
+	req_access_txt = "19"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/carpet,
+/area/command/blueshielquarters3)
 "aSk" = (
 /obj/machinery/biogenerator,
 /turf/open/floor/plasteel/dark,
@@ -10704,6 +10716,16 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"csW" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 9
+	},
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24
+	},
+/turf/open/floor/carpet,
+/area/command/blueshielquarters2)
 "ctW" = (
 /obj/structure/table/wood,
 /obj/item/storage/photo_album,
@@ -11076,7 +11098,8 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/machinery/rnd/production/techfab/department/security,
+/obj/structure/closet/secure_closet/security/sec,
+/obj/item/clothing/suit/hooded/wintercoat/security,
 /turf/open/floor/plasteel/dark,
 /area/security)
 "cBe" = (
@@ -13458,6 +13481,22 @@
 /obj/item/seeds/carrot,
 /turf/open/floor/grass,
 /area/service/chapel/main)
+"dzG" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 6
+	},
+/obj/effect/landmark/start/blueshield,
+/obj/machinery/power/apc{
+	areastring = "/area/security/brig";
+	dir = 1;
+	name = "Blueshield's Office APC";
+	pixel_y = 23
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/carpet,
+/area/command/blueshielquarters3)
 "dzS" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/navbeacon{
@@ -16464,6 +16503,7 @@
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "eVW" = (
+/obj/machinery/rnd/production/techfab/department/security,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "eWp" = (
@@ -16538,6 +16578,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
+"eYB" = (
+/turf/closed/wall/r_wall,
+/area/command/blueshielquarters3)
 "eZe" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -17129,8 +17172,7 @@
 "fnc" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/gun/energy/laser,
-/obj/item/gun/energy/laser,
+/obj/item/gun/energy/ionrifle,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "fne" = (
@@ -17762,6 +17804,15 @@
 /obj/structure/fireplace{
 	pixel_y = -6
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "fDi" = (
@@ -18205,6 +18256,9 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/atmos)
+"fMd" = (
+/turf/closed/wall/r_wall,
+/area/command/blueshielquarters2)
 "fNd" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/disposalpipe/segment{
@@ -18659,6 +18713,11 @@
 	},
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/carpet,
 /area/command/blueshieldoffice)
@@ -21066,6 +21125,19 @@
 /obj/machinery/vending/wardrobe/bar_wardrobe,
 /turf/open/floor/wood,
 /area/service/bar)
+"hfJ" = (
+/obj/structure/dresser,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+	dir = 1
+	},
+/obj/machinery/airalarm{
+	dir = 1;
+	pixel_y = -22
+	},
+/obj/item/reagent_containers/food/drinks/flask,
+/obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/turf/open/floor/carpet,
+/area/command/blueshielquarters3)
 "hfX" = (
 /obj/structure/bookcase/random,
 /turf/open/floor/wood,
@@ -25097,11 +25169,12 @@
 /area/icemoon/surface/outdoors)
 "iTJ" = (
 /obj/structure/rack,
-/obj/item/storage/box/rubbershot,
-/obj/item/gun/ballistic/shotgun/riot,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/item/gun/ballistic/shotgun/riot,
+/obj/item/gun/ballistic/shotgun/riot,
+/obj/item/gun/ballistic/shotgun/riot,
 /obj/item/gun/ballistic/shotgun/riot,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
@@ -25484,9 +25557,6 @@
 /turf/open/floor/plasteel/grimy,
 /area/tcommsat/computer)
 "jdG" = (
-/obj/structure/railing{
-	dir = 9
-	},
 /obj/item/kirbyplants{
 	icon_state = "plant-05"
 	},
@@ -25498,6 +25568,12 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/exit/departure_lounge)
@@ -27075,9 +27151,17 @@
 /turf/open/floor/plasteel/dark,
 /area/engineering/atmospherics_engine)
 "jPo" = (
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = 24
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/carpet,
 /area/command/blueshieldoffice)
@@ -28789,11 +28873,14 @@
 /area/maintenance/disposal)
 "kEd" = (
 /obj/structure/rack,
-/obj/item/gun/energy/e_gun/advtaser,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/gun/energy/laser/carbine,
+/obj/item/gun/energy/laser/carbine,
+/obj/item/gun/energy/laser/carbine,
+/obj/item/gun/energy/laser/carbine,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "kEf" = (
@@ -29536,6 +29623,23 @@
 "kVO" = (
 /turf/closed/wall,
 /area/hallway/primary/starboard/fore)
+"kWe" = (
+/obj/structure/dresser,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
+/obj/machinery/power/apc{
+	areastring = "/area/security/brig";
+	dir = 1;
+	name = "Blueshield's Office APC";
+	pixel_y = 23
+	},
+/obj/structure/cable{
+	icon_state = "0-2";
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/food/drinks/flask,
+/obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/turf/open/floor/carpet,
+/area/command/blueshielquarters2)
 "kWl" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
@@ -29570,6 +29674,16 @@
 /obj/structure/dresser,
 /obj/item/reagent_containers/food/drinks/flask,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/obj/machinery/power/apc{
+	areastring = "/area/security/brig";
+	dir = 1;
+	name = "Blueshield's Office APC";
+	pixel_y = 23
+	},
+/obj/structure/cable{
+	icon_state = "0-2";
+	pixel_y = 1
+	},
 /turf/open/floor/carpet,
 /area/command/blueshielquarters)
 "kXY" = (
@@ -30083,6 +30197,12 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/port/fore)
+"lks" = (
+/obj/structure/bed/double,
+/obj/item/bedsheet/blue/double,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1,
+/turf/open/floor/carpet,
+/area/command/blueshielquarters2)
 "lkI" = (
 /obj/structure/chair/stool,
 /turf/open/floor/carpet/arcade,
@@ -31331,8 +31451,15 @@
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "lRF" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 9
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
@@ -31691,8 +31818,7 @@
 	pixel_x = 27
 	},
 /obj/structure/rack,
-/obj/item/clothing/head/helmet/riot,
-/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/suit/armor/laserproof,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "lZj" = (
@@ -32129,6 +32255,11 @@
 /obj/structure/loot_pile/maint,
 /turf/open/floor/plating,
 /area/security/prison)
+"mjc" = (
+/obj/effect/turf_decal/delivery,
+/obj/structure/anvil/obtainable/basic,
+/turf/open/floor/plasteel/dark,
+/area/ai_monitored/security/armory)
 "mjl" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -34134,6 +34265,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+/obj/structure/railing{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "nek" = (
@@ -34707,6 +34841,9 @@
 	name = "Blueshield's Quarters";
 	req_access_txt = "19"
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/carpet,
 /area/command/blueshielquarters)
 "ntO" = (
@@ -34898,7 +35035,8 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/gun/energy/ionrifle,
+/obj/item/gun/energy/laser/scatter/shotty,
+/obj/item/gun/energy/laser/scatter/shotty,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "nzn" = (
@@ -35736,9 +35874,6 @@
 /turf/open/floor/plasteel/dark,
 /area/medical/storage)
 "nQM" = (
-/obj/item/shield/riot{
-	pixel_y = 2
-	},
 /obj/structure/rack,
 /obj/structure/sign/nanotrasen{
 	pixel_x = 32
@@ -35746,6 +35881,18 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/item/shield/riot,
+/obj/item/shield/riot,
+/obj/item/shield/riot,
+/obj/item/shield/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/suit/armor/riot,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "nQT" = (
@@ -35864,6 +36011,14 @@
 /obj/machinery/light,
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/hallway/secondary/exit/departure_lounge)
+"nTP" = (
+/obj/structure/bed/double,
+/obj/item/bedsheet/blue/double,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer1{
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/command/blueshielquarters3)
 "nTQ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -38359,6 +38514,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "pbs" = (
@@ -38822,6 +38980,19 @@
 "pkh" = (
 /turf/open/floor/plasteel/freezer,
 /area/service/kitchen/coldroom)
+"pkl" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 9
+	},
+/obj/effect/landmark/start/blueshield,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/carpet,
+/area/command/blueshielquarters2)
 "pko" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/plasteel/yellowsiding{
@@ -39471,6 +39642,16 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/cargo/miningdock)
+"pxr" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/carpet,
+/area/command/blueshielquarters3)
 "pxE" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -39887,6 +40068,10 @@
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
 /obj/item/folder/blue,
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = -24
+	},
 /turf/open/floor/carpet,
 /area/command/blueshieldoffice)
 "pFf" = (
@@ -40762,7 +40947,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "pYr" = (
-/turf/open/openspace,
+/turf/open/openspace/icemoon,
 /area/icemoon/surface/outdoors)
 "pYH" = (
 /obj/structure/disposalpipe/segment{
@@ -41732,6 +41917,23 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
+"quJ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/command{
+	name = "Blueshield's Quarters";
+	req_access_txt = "19"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/carpet,
+/area/command/blueshielquarters2)
 "qva" = (
 /obj/effect/landmark/event_spawn,
 /obj/effect/turf_decal/bot,
@@ -43178,12 +43380,6 @@
 "rco" = (
 /turf/open/floor/plasteel/dark,
 /area/engineering/main)
-"rcH" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/hallway/secondary/exit/departure_lounge)
 "rcY" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -47879,15 +48075,12 @@
 /turf/open/floor/plasteel,
 /area/cargo/sorting)
 "toz" = (
-/obj/item/clothing/head/helmet/alt{
-	layer = 3.00001;
-	pixel_y = 7
-	},
 /obj/structure/rack,
 /obj/structure/reagent_dispensers/peppertank{
 	pixel_x = 32
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/storage/box/stingbangs,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "toL" = (
@@ -48248,9 +48441,6 @@
 /turf/open/floor/plating,
 /area/maintenance/disposal)
 "tws" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 9
-	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 1
 	},
@@ -48259,6 +48449,10 @@
 	},
 /obj/structure/mirror{
 	pixel_y = 32
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
@@ -49800,6 +49994,9 @@
 /obj/machinery/light_switch{
 	pixel_x = -25;
 	pixel_y = 25
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
@@ -55344,6 +55541,9 @@
 	dir = 6
 	},
 /obj/effect/landmark/start/blueshield,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/carpet,
 /area/command/blueshielquarters)
 "wKC" = (
@@ -56166,11 +56366,11 @@
 /area/hallway/primary/starboard)
 "xfE" = (
 /obj/structure/rack,
-/obj/item/gun/energy/e_gun,
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/gun/grenadelauncher,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "xfG" = (
@@ -57002,18 +57202,15 @@
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/exit/departure_lounge)
 "xBv" = (
-/obj/item/clothing/suit/armor/riot{
-	pixel_y = -1
-	},
-/obj/item/clothing/suit/armor/riot{
-	pixel_x = 4;
-	pixel_y = -1
-	},
 /obj/structure/rack,
 /obj/item/storage/secure/safe{
 	pixel_x = 32
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/storage/box/beanbag,
+/obj/item/storage/box/beanbag,
+/obj/item/storage/box/beanbag,
+/obj/item/storage/box/beanbag,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "xBV" = (
@@ -84826,7 +85023,7 @@ bDv
 kfv
 fQi
 nxv
-iEu
+mjc
 iEu
 adf
 fLB
@@ -92520,7 +92717,7 @@ wbE
 wbE
 uBa
 jdG
-rcH
+tif
 bwx
 cTG
 bpD
@@ -92731,7 +92928,7 @@ bqN
 vzS
 xUL
 xUL
-acg
+pYr
 bqN
 ydp
 avT
@@ -92987,8 +93184,8 @@ bqN
 bqN
 avT
 xUL
-acg
-acg
+pYr
+pYr
 bqN
 ydp
 ydp
@@ -98693,10 +98890,10 @@ ete
 tws
 jIN
 gPz
-gbc
-avT
-avT
-avT
+eYB
+eYB
+eYB
+eYB
 bLT
 uhD
 aFa
@@ -98950,10 +99147,10 @@ ntN
 lRF
 tYQ
 dBs
-wJL
-avT
-avT
-avT
+eYB
+dzG
+hfJ
+eYB
 bLT
 mcy
 bEi
@@ -99207,10 +99404,10 @@ quq
 fCW
 fWR
 jPo
-wJL
-avT
-avT
-avT
+aRw
+pxr
+nTP
+eYB
 bLT
 bLT
 pxp
@@ -99461,13 +99658,13 @@ quq
 quq
 quq
 quq
-gbc
-gbc
-gbc
-gbc
-avT
-avT
-avT
+fMd
+fMd
+quJ
+eYB
+eYB
+eYB
+eYB
 avT
 bLT
 bBQ
@@ -99718,10 +99915,10 @@ ydp
 avT
 avT
 avT
-avT
-avT
-avT
-avT
+fMd
+kWe
+pkl
+fMd
 avT
 avT
 avT
@@ -99975,10 +100172,10 @@ ydp
 ydp
 ydp
 ydp
-avT
-avT
-avT
-avT
+fMd
+lks
+csW
+fMd
 avT
 avT
 avT
@@ -100232,10 +100429,10 @@ ydp
 ydp
 ydp
 ydp
-avT
-avT
-avT
-avT
+fMd
+fMd
+fMd
+fMd
 avT
 avT
 avT
@@ -105790,10 +105987,10 @@ saN
 qgm
 qgm
 cUP
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
 bxL
 bxL
 bxL
@@ -106047,10 +106244,10 @@ saN
 cQd
 cQd
 bKI
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
 dwT
 vBe
 rww
@@ -106286,8 +106483,8 @@ ydp
 avT
 xUL
 eWH
-acg
-acg
+pYr
+pYr
 dwT
 avT
 avT
@@ -106304,10 +106501,10 @@ saN
 aRp
 aRp
 bKI
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
 kzG
 mgf
 jrq
@@ -106543,8 +106740,8 @@ ydp
 avT
 xUL
 cUS
-acg
-acg
+pYr
+pYr
 dwT
 avT
 ydp
@@ -106561,10 +106758,10 @@ saN
 bCA
 aRp
 bKI
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
 net
 xUL
 rww
@@ -106818,10 +107015,10 @@ kVO
 ezx
 ezx
 bKI
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
 net
 xUL
 bxL
@@ -107075,10 +107272,10 @@ asn
 xUL
 xUL
 vUs
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
 rFn
 xUL
 bxL
@@ -107332,10 +107529,10 @@ qcX
 xUL
 xUL
 vUs
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
 rFn
 vBe
 fen
@@ -108356,8 +108553,8 @@ pNV
 dmt
 siV
 vUs
-acg
-acg
+pYr
+pYr
 dwT
 xUL
 bKI
@@ -108613,8 +108810,8 @@ jKC
 cMW
 siV
 vUs
-acg
-acg
+pYr
+pYr
 dwT
 vBe
 bKI
@@ -108870,8 +109067,8 @@ pNV
 qsX
 dlK
 vUs
-acg
-acg
+pYr
+pYr
 dwT
 xUL
 bKI
@@ -109637,13 +109834,13 @@ nMt
 qfB
 nMt
 rYc
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 pom
 bKI
@@ -109894,13 +110091,13 @@ hmz
 iee
 fDp
 fhf
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 pom
 bKI
@@ -110151,13 +110348,13 @@ qle
 xnD
 qle
 rYc
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 pom
 bKI
@@ -110412,9 +110609,9 @@ bxL
 bxL
 bxL
 bxL
-acg
-acg
-acg
+pYr
+pYr
+pYr
 dwT
 pom
 bKI
@@ -110669,9 +110866,9 @@ bxL
 bqN
 bxL
 bxL
-acg
-acg
-acg
+pYr
+pYr
+pYr
 kZX
 pom
 jKF
@@ -110927,14 +111124,14 @@ bqN
 bxL
 bxL
 bxL
-acg
-acg
+pYr
+pYr
 dwT
 cyG
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
 sZM
 fen
 fHF
@@ -111175,17 +111372,17 @@ yhx
 yhx
 bqN
 bqN
-acg
-acg
-acg
+pYr
+pYr
+pYr
 bqN
 bqN
 bqN
 bxL
 bxL
 bxL
-acg
-acg
+pYr
+pYr
 bDA
 fRQ
 xII
@@ -111441,8 +111638,8 @@ bqN
 bxL
 bxL
 bxL
-acg
-acg
+pYr
+pYr
 bFx
 pom
 bKI
@@ -111698,8 +111895,8 @@ bqN
 bqN
 bqN
 bxL
-acg
-acg
+pYr
+pYr
 bFx
 bRD
 caS
@@ -111955,8 +112152,8 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
+pYr
+pYr
 aEF
 bYY
 ccD
@@ -112212,8 +112409,8 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
+pYr
+pYr
 dwT
 xUL
 bKI
@@ -112473,27 +112670,27 @@ cBe
 cBe
 xUL
 vUs
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
 sZM
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 aef
 jPj
 ucC
@@ -112730,27 +112927,27 @@ jKF
 jKF
 xUL
 vUs
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
 sZM
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 aeg
 jls
 ucC
@@ -112983,8 +113180,8 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
+pYr
+pYr
 dwT
 xUL
 cBe
@@ -113240,8 +113437,8 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
+pYr
+pYr
 xiA
 jKF
 jKF
@@ -113498,28 +113695,28 @@ bqN
 bxL
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 jYt
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 kLn
 tdX
 aej
@@ -113755,28 +113952,28 @@ bqN
 bxL
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 sZM
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 hJW
 tdX
 aej
@@ -114012,28 +114209,28 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 sZM
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 kLn
 tdX
 aej
@@ -114269,28 +114466,28 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 sZM
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 hJW
 tdX
 aej
@@ -114526,28 +114723,28 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 sZM
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 qJL
 aek
@@ -114783,28 +114980,28 @@ bqN
 bqN
 bqN
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 sZM
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 vBe
 ael
@@ -115040,28 +115237,28 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 jYt
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 bDA
 bYY
 aem
@@ -115297,28 +115494,28 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 sZM
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 gjW
 xUL
 jKF
@@ -115554,33 +115751,33 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 sZM
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 vUs
-acg
-acg
-acg
+pYr
+pYr
+pYr
 hBq
 pCv
 iuP
@@ -115812,30 +116009,30 @@ bqN
 bxL
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 sZM
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 vUs
-acg
+pYr
 hBq
 hBq
 hBq
@@ -116092,7 +116289,7 @@ mkv
 mkv
 omL
 jAL
-acg
+pYr
 jeJ
 uaJ
 fCh
@@ -116349,7 +116546,7 @@ jKF
 jKF
 xUL
 bQL
-acg
+pYr
 jeJ
 qSP
 ptv
@@ -116583,30 +116780,30 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 bQL
-acg
+pYr
 jeJ
 pbS
 mhG
@@ -116840,30 +117037,30 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 bQL
-acg
+pYr
 hBq
 xBV
 hBq
@@ -117097,27 +117294,27 @@ bqN
 bxL
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 kZX
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 kLn
 rvf
 fsH
@@ -117354,27 +117551,27 @@ bqN
 bxL
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 wRD
 xGm
 cIT
@@ -117612,30 +117809,30 @@ bqN
 bxL
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 wRD
 dsC
-acg
-acg
+pYr
+pYr
 dwT
 uZC
 jls
@@ -117869,30 +118066,30 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 wRD
 bQL
-acg
-acg
+pYr
+pYr
 pQg
 tFN
 tFN
@@ -118127,25 +118324,25 @@ bqN
 bqN
 bxL
 bxL
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
 dwT
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 hJW
 rvf
 vMa
@@ -118386,23 +118583,23 @@ bqN
 bxL
 bxL
 bxL
-acg
-acg
+pYr
+pYr
 dwT
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 npD
 svr
 sYR
@@ -118647,22 +118844,22 @@ bKI
 bKI
 eGk
 vUs
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 dwT
 pom
 vBe
@@ -119418,24 +119615,24 @@ bKI
 bKI
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 bxL
 bqN
 bqN
@@ -119676,23 +119873,23 @@ bqN
 bxL
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 bxL
 bqN
 bqN
@@ -119935,21 +120132,21 @@ bxL
 bxL
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 bxL
 bqN
 bqN
@@ -120193,19 +120390,19 @@ bxL
 bxL
 bxL
 bxL
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
-acg
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
+pYr
 bxL
 bxL
 bxL

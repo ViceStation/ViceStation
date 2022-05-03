@@ -88,3 +88,11 @@
 /area/command/blueshielquarters
 	name = "Blueshield's Quarters"
 	icon_state = "bridge"
+
+/area/command/blueshielquarters2
+	name = "Blueshield's Quarters"
+	icon_state = "bridge"
+
+/area/command/blueshielquarters3
+	name = "Blueshield's Quarters"
+	icon_state = "bridge"
