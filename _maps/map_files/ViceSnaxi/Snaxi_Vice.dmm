@@ -43365,7 +43365,7 @@
 	dir = 1
 	},
 /obj/machinery/door/poddoor/shutters{
-	id = "jangarage";
+	id = "custodialwagon";
 	name = "Custodial Closet Shutters"
 	},
 /turf/open/floor/plasteel,
@@ -49296,7 +49296,7 @@
 	dir = 1
 	},
 /obj/machinery/door/poddoor/shutters{
-	id = "jangarage";
+	id = "custodialwagon";
 	name = "Custodial Closet Shutters"
 	},
 /turf/open/floor/plasteel,
