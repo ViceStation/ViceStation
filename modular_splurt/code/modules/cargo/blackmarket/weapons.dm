@@ -257,7 +257,7 @@
 /datum/blackmarket_item/syndi/weapon/tommygunmag
 	name = "Tommy gun drum magazine"
 	desc = "Drum magazines for the Tommy gun"
-	item = /obj/item/ammo_box/magazine/tommygunm45
+	item = /obj/item/ammo_box/magazine/tommygunm45/r50
 	price_min = 275000
 	price_max = 375000
 	stock_min = 2
@@ -267,7 +267,7 @@
 /datum/blackmarket_item/syndi/weapon/tommygunmag30
 	name = "Tommy gun stick magazine"
 	desc = "Stick magazines for the Tommy gun"
-	item = /obj/item/ammo_box/magazine/tommygunm45/r30
+	item = /obj/item/ammo_box/magazine/tommygunm45
 	price_min = 252500
 	price_max = 352500
 	stock_min = 2

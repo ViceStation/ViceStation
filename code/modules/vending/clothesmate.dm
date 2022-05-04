@@ -251,7 +251,16 @@
 					/obj/item/clothing/under/costume/cheongsam/white = 3,
 					/obj/item/clothing/under/costume/cheongsam/red = 3,
 					/obj/item/storage/backpack/snail = 3,
-					/obj/item/umbrella = 5)
+					/obj/item/umbrella = 5,
+					/obj/item/clothing/suit/assu_suit = 16,
+					/obj/item/clothing/head/assu_helmet = 16,
+					/obj/item/clothing/glasses/aviators = 10,
+					/obj/item/clothing/glasses/sunglasses = 10,
+					/obj/item/clothing/suit/toggle/rp_jacket = 3,
+					/obj/item/clothing/suit/toggle/rp_jacket/orange = 3,
+					/obj/item/clothing/suit/toggle/rp_jacket/purple = 3,
+					/obj/item/clothing/suit/toggle/rp_jacket/red = 3,
+					/obj/item/clothing/suit/toggle/rp_jacket/white = 3)
 	contraband = list(/obj/item/clothing/accessory/turtleneck/tactifool/syndicate = 3,
 					/obj/item/clothing/under/syndicate/tacticool = 3,
 					/obj/item/clothing/under/syndicate/tacticool/skirt = 3,
@@ -264,7 +273,8 @@
 					/obj/item/clothing/suit/vapeshirt = 2,
 					/obj/item/clothing/under/costume/geisha = 4,
 					/obj/item/clothing/under/misc/keyholesweater = 3,
-					/obj/item/clothing/under/misc/staffassistant = 5)
+					/obj/item/clothing/under/misc/staffassistant = 5,
+					/obj/item/clothing/under/rank/civilian/lawyer/galaxy_red = 3)
 	premium = list(/obj/item/clothing/under/suit/checkered = 4,
 					/obj/item/clothing/head/mailman = 2,
 					/obj/item/clothing/under/misc/mailman = 2,
@@ -288,7 +298,8 @@
 					/obj/item/clothing/suit/jacket/heartcoat = 4,
 					/obj/item/clothing/suit/jacket/purplehoodie = 4,
 					/obj/item/clothing/suit/jacket/bluehoodie = 4,
-					/obj/item/clothing/suit/toggle/jacket/whitehoodie = 4)
+					/obj/item/clothing/suit/toggle/jacket/whitehoodie = 4,
+					/obj/item/clothing/under/rank/civilian/lawyer/galaxy_blue = 3)
 	refill_canister = /obj/item/vending_refill/clothing
 	default_price = PRICE_CHEAP //Default of
 	extra_price = PRICE_BELOW_NORMAL

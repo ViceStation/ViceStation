@@ -43,7 +43,7 @@
 
 /obj/item/projectile/energy/electrode/security
 	tase_duration = 40
-	knockdown = 0
+	knockdown = 5
 	stamina = 0
 	knockdown_stamoverride = 0
 	knockdown_stam_max = 0
@@ -51,7 +51,7 @@
 
 /obj/item/projectile/energy/electrode/security/hos
 	tase_duration = 40
-	knockdown = 0
+	knockdown = 5
 	stamina = 0
 	knockdown_stamoverride = 0
 	knockdown_stam_max = 0

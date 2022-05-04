@@ -14,14 +14,6 @@
 //	design_ids = list("cryptominersyndie")
 //	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 5000)
 
-/datum/techweb_node/computermath
-	id = "computermath"
-	display_name = "Problem Computer"
-	description = "Solve problems for either cargo credits or research points."
-	prereq_ids = list("base")
-	design_ids = list("computermath")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
-
 /datum/techweb_node/encryption
 	id = "encryption_key"
 	display_name = "Communication Encryption"
@@ -34,9 +26,9 @@
 	id = "bluespace_mining"
 	display_name = "Bluespace Mining Technology"
 	description = "Harness the power of bluespace to make materials out of nothing. Slowly."
-	prereq_ids = list("practical_bluespace", "adv_mining")
+	prereq_ids = list("adv_bluespace", "adv_mining")
 	design_ids = list("bluespace_miner")
-	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 7500)
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 
 /datum/techweb_node/shuttle_route_upgrade_hyper/New()
 	design_ids += "disk_shuttle_smoothsail"

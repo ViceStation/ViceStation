@@ -31,9 +31,20 @@
 					/obj/item/clothing/under/pants/khaki = 5,
 					/obj/item/clothing/suit/toggle/labcoat/depjacket/sec = 5,
 					/obj/item/clothing/under/rank/security/officer/util = 5,
-					/obj/item/clothing/under/rank/security/officer/blueshirt/seccorp = 5)
+					/obj/item/clothing/under/rank/security/officer/blueshirt/seccorp = 5,
+					/obj/item/clothing/head/beret/sec/peacekeeper/cap = 5,
+					/obj/item/clothing/head/beret/sec/peacekeeper = 5,
+					/obj/item/clothing/under/rank/security/officer/peacekeeper =5,
+					/obj/item/clothing/under/rank/security/officer/metrocop = 2,
+					/obj/item/clothing/under/rank/security/skirt/slut = 5,
+					/obj/item/clothing/under/rank/security/skirt/slut/pink = 5,
+					/obj/item/clothing/under/rank/security/stripper = 5,
+					/obj/item/clothing/suit/hooded/corpus/s = 5)
 	premium = list(/obj/item/clothing/under/rank/security/officer/formal = 5,
-					/obj/item/clothing/head/beret/sec/navyofficer = 5)
+					/obj/item/clothing/head/beret/sec/navyofficer = 5,
+					/obj/item/clothing/gloves/latexsleeves/security = 5,
+					/obj/item/clothing/shoes/jackboots/tall = 5,
+					/obj/item/clothing/head/beret/sec/bitch = 5)
 	refill_canister = /obj/item/vending_refill/wardrobe/sec_wardrobe
 	payment_department = ACCOUNT_SEC
 	light_color = COLOR_MOSTLY_PURE_RED
@@ -107,7 +118,9 @@
 					/obj/item/clothing/suit/hazardvest = 5,
 					/obj/item/clothing/shoes/workboots = 5,
 					/obj/item/clothing/head/hardhat = 5,
-					/obj/item/clothing/head/hardhat/weldhat = 3)
+					/obj/item/clothing/head/hardhat/weldhat = 3,
+					/obj/item/clothing/under/radkini = 2,
+					/obj/item/clothing/mask/gas/radmask = 2)
 	refill_canister = /obj/item/vending_refill/wardrobe/engi_wardrobe
 	payment_department = ACCOUNT_ENG
 	light_color = COLOR_VIVID_YELLOW
@@ -254,9 +267,12 @@
 					/obj/item/storage/backpack/satchel/explorer = 1,
 					/obj/item/clothing/glasses/regular = 2,
 					/obj/item/clothing/glasses/regular/jamjar = 1,
-					/obj/item/storage/bag/books = 1)
+					/obj/item/storage/bag/books = 1,
+					/obj/item/clothing/suit/fakearmor/press = 1,
+					/obj/item/clothing/head/press_helmet = 1)
 	refill_canister = /obj/item/vending_refill/wardrobe/curator_wardrobe
 	payment_department = ACCOUNT_SRV
+
 /obj/item/vending_refill/wardrobe/curator_wardrobe
 	machine_name = "CuraDrobe"
 
@@ -283,7 +299,8 @@
 					/obj/item/circuitboard/machine/dish_drive = 1,
 					/obj/item/clothing/glasses/sunglasses/reagent = 1,
 					/obj/item/clothing/neck/petcollar = 3,
-					/obj/item/storage/belt/bandolier = 1)
+					/obj/item/storage/belt/bandolier = 1,
+					/obj/item/clothing/neck/petcollar/handmade = 3)
 	refill_canister = /obj/item/vending_refill/wardrobe/bar_wardrobe
 	payment_department = ACCOUNT_SRV
 /obj/item/vending_refill/wardrobe/bar_wardrobe
@@ -374,7 +391,9 @@
 					/obj/item/clothing/suit/toggle/lawyer/purple = 3,
 					/obj/item/clothing/suit/toggle/lawyer/black = 3,
 					/obj/item/clothing/shoes/laceup = 3,
-					/obj/item/clothing/accessory/lawyers_badge = 3)
+					/obj/item/clothing/accessory/lawyers_badge = 3,
+					/obj/item/clothing/under/rank/civilian/lawyer/galaxy_blue = 3,
+					/obj/item/clothing/under/rank/civilian/lawyer/galaxy_red = 3)
 	refill_canister = /obj/item/vending_refill/wardrobe/law_wardrobe
 	payment_department = ACCOUNT_SRV
 /obj/item/vending_refill/wardrobe/law_wardrobe
@@ -493,7 +512,8 @@
 					/obj/item/clothing/gloves/color/black = 2,
 					/obj/item/clothing/gloves/color/latex = 2,
 					/obj/item/reagent_containers/food/drinks/flask/det = 2,
-					/obj/item/storage/fancy/cigarettes = 5)
+					/obj/item/storage/fancy/cigarettes = 5,
+					/obj/item/clothing/suit/det_suit/lanyard = 1)
 	premium = list(/obj/item/clothing/head/flatcap = 1)
 	refill_canister = /obj/item/vending_refill/wardrobe/det_wardrobe
 	extra_price = PRICE_EXPENSIVE * 1.75

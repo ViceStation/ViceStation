@@ -14,16 +14,30 @@
 					/obj/item/storage/box/evidence = 6,
 					/obj/item/flashlight/seclite = 4,
 					/obj/item/restraints/legcuffs/bola/energy = 7,
-					/obj/item/secbat = 5)
+					/obj/item/secbat = 5,
+					/obj/item/ammo_box/magazine/e45 = 10,
+					/obj/item/device/hailer = 10,
+					/obj/item/clothing/suit/armor/vest/peacekeeper = 5,
+					/obj/item/clothing/suit/armor/vest/metrocop = 2,
+					/obj/item/clothing/head/helmet/metrocop = 2)
 	contraband = list(/obj/item/clothing/glasses/sunglasses = 2,
 					/obj/item/storage/fancy/donut_box = 2,
-					/obj/item/storage/belt/sabre/secbelt = 1)
+					/obj/item/storage/belt/sabre/secbelt = 1,
+					/obj/item/storage/belt/slut = 5,
+					/obj/item/bdsm_whip/ridingcrop = 3,
+					/obj/item/electropack/shockcollar/security = 5,
+					/obj/item/clothing/suit/armor/vest/stripper = 5,
+					/obj/item/clothing/suit/armor/vest/stripper/bikini = 5,
+					/obj/item/clothing/neck/petcollar/locked/security = 5,
+					/obj/item/clothing/mask/gas/sechailer/slut = 5,
+					/obj/item/grenade/secbed = 3,
+					/obj/item/dildo/flared/gigantic = 1	)
 	premium = list(/obj/item/coin/antagtoken = 1,
-				   /obj/item/clothing/head/helmet/blueshirt = 1,
-				   /obj/item/clothing/suit/armor/vest/blueshirt = 1,
+					/obj/item/clothing/head/helmet/blueshirt = 1,
+					/obj/item/clothing/suit/armor/vest/blueshirt = 1,
 					/obj/item/clothing/under/rank/security/officer/blueshirt = 1,
-				   /obj/item/clothing/gloves/tackler = 5,
-				   /obj/item/grenade/stingbang = 1,
+					/obj/item/clothing/gloves/tackler = 5,
+					/obj/item/grenade/stingbang = 1,
 					/obj/item/ssword_kit = 1,
 					/obj/item/storage/bag/ammo = 3)
 	refill_canister = /obj/item/vending_refill/security

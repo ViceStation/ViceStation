@@ -5,6 +5,7 @@
 	display_name = "Data Theory"
 	description = "Big Data, in space!"
 	prereq_ids = list("base")
+	design_ids = list("computermath")
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2000)
 
 /datum/techweb_node/adv_datatheory
