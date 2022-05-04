@@ -2815,7 +2815,7 @@
 	charge = 1.5e+006;
 	input_level = 30000;
 	inputting = 0;
-	output_level = 7000
+	output_level = 29000
 	},
 /turf/open/floor/plating,
 /area/awaymission/jungleresort)
