@@ -65,3 +65,10 @@
 /obj/item/ammo_box/magazine/internal/shot/levergun/brush
 	name = "brush gun internal magazine"
 	ammo_type = /obj/item/ammo_casing/g4570
+
+/obj/item/ammo_box/magazine/internal/shot2
+	name = "shotgun internal magazine"
+	ammo_type = /obj/item/ammo_casing/shotgun/buckshot
+	caliber = "shotgun"
+	max_ammo = 4
+	multiload = 0

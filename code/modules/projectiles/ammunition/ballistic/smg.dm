@@ -19,11 +19,12 @@
 // .45 (M1911 + C20r)
 
 /obj/item/ammo_casing/c45
-	name = ".45 bullet casing"
+	name = ".45 rubber casing"
 	desc = "A .45 bullet casing."
 	caliber = ".45"
 	projectile_type = /obj/item/projectile/bullet/c45
 
 /obj/item/ammo_casing/c45/kitchengun
+	name = ".45 bullet casing"
 	desc = "A .45 bullet casing. It has a small sponge attached to it."
 	projectile_type = /obj/item/projectile/bullet/c45_cleaning

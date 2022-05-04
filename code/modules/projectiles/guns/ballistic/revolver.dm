@@ -401,7 +401,7 @@
 	recoil = 0
 	can_flashlight = 1
 	flight_x_offset = 18
-	flight_y_offset = 4
+	flight_y_offset = 10
 
 	var/charge_sections = 6
 

@@ -54,5 +54,5 @@
 		/obj/item/melee/classic_baton/telescopic=1, /obj/item/modular_computer/tablet/preset/advanced = 1)
 
 	implants = list(/obj/item/implant/mindshield)
-
+	accessory = /obj/item/clothing/accessory/permit/head
 	chameleon_extras = list(/obj/item/gun/energy/e_gun, /obj/item/stamp/hop)

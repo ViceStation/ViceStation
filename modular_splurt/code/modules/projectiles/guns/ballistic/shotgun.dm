@@ -120,7 +120,7 @@
 	icon_state = "hunting"
 	item_state = "shotgun"
 	fire_delay = 5
-	mag_type = /obj/item/ammo_box/magazine/internal/shot
+	mag_type = /obj/item/ammo_box/magazine/internal/shot2
 	w_class = WEIGHT_CLASS_BULKY
 	weapon_weight = WEAPON_HEAVY
 	sawn_desc = "A cheap hunting shotgun that bubba got ahold of."
