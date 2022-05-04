@@ -2851,7 +2851,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 5
 	},
-/turf/open/floor/plating,
+/turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "afU" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
@@ -5881,7 +5881,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
 	name = "Blueshield's Quarters";
-	req_access_txt = "19"
+	req_access_txt = "72"
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -6144,7 +6144,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plating,
+/turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "aZz" = (
 /obj/structure/lattice/catwalk,
@@ -8695,11 +8695,10 @@
 /turf/open/floor/plasteel/dark,
 /area/security)
 "bJv" = (
-/obj/structure/closet/secure_closet/hos,
-/obj/item/clothing/suit/hooded/wintercoat/security,
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/structure/closet/secure_closet/hosnew,
 /turf/open/floor/carpet/black,
 /area/command/heads_quarters/hos)
 "bJw" = (
@@ -9027,6 +9026,7 @@
 /obj/structure/table/wood,
 /obj/item/storage/box/deputy,
 /obj/machinery/light,
+/obj/item/storage/box/seccarts,
 /turf/open/floor/carpet,
 /area/command/heads_quarters/hos)
 "bNT" = (
@@ -14491,7 +14491,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "ebF" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
@@ -16188,6 +16188,7 @@
 /area/hallway/primary/central)
 "eOT" = (
 /obj/structure/closet/secure_closet/blueshield,
+/obj/item/clothing/suit/hooded/wintercoat/security,
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "eOZ" = (
@@ -17170,7 +17171,10 @@
 "fnc" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/gun/energy/ionrifle,
+/obj/item/gun/energy/ionrifle{
+	pixel_x = 3;
+	pixel_y = 3
+	},
 /obj/item/gun/energy/temperature,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
@@ -18679,7 +18683,8 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/medical{
-	name = "Psychologist Office"
+	name = "Psychology";
+	req_access_txt = "76"
 	},
 /turf/open/floor/wood,
 /area/medical/psychology)
@@ -25204,10 +25209,19 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/item/gun/ballistic/shotgun/riot{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/gun/ballistic/shotgun/riot{
+	pixel_x = -3;
+	pixel_y = 3
+	},
 /obj/item/gun/ballistic/shotgun/riot,
-/obj/item/gun/ballistic/shotgun/riot,
-/obj/item/gun/ballistic/shotgun/riot,
-/obj/item/gun/ballistic/shotgun/riot,
+/obj/item/gun/ballistic/shotgun/riot{
+	pixel_x = 3;
+	pixel_y = -3
+	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "iTM" = (
@@ -26881,6 +26895,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/effect/landmark/start/psychologist,
 /turf/open/floor/carpet,
 /area/medical/psychology)
 "jIK" = (
@@ -28440,6 +28455,7 @@
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/blueshield,
+/obj/item/clothing/suit/hooded/wintercoat/security,
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "ksq" = (
@@ -28901,10 +28917,19 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/gun/energy/laser/carbine{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/gun/energy/laser/carbine{
+	pixel_x = -3;
+	pixel_y = 3
+	},
 /obj/item/gun/energy/laser/carbine,
-/obj/item/gun/energy/laser/carbine,
-/obj/item/gun/energy/laser/carbine,
-/obj/item/gun/energy/laser/carbine,
+/obj/item/gun/energy/laser/carbine{
+	pixel_x = 3;
+	pixel_y = -3
+	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "kEf" = (
@@ -29209,7 +29234,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 10
 	},
-/turf/open/floor/plating,
+/turf/open/floor/wood,
 /area/command/blueshieldoffice)
 "kLQ" = (
 /obj/effect/turf_decal/tile/red,
@@ -31855,7 +31880,15 @@
 	},
 /obj/structure/rack,
 /obj/item/clothing/suit/armor/laserproof,
-/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/suit/armor/bulletproof{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/item/clothing/head/helmet/alt{
+	layer = 3.00001;
+	pixel_x = 3;
+	pixel_y = -3
+	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "lZj" = (
@@ -32102,7 +32135,7 @@
 	},
 /obj/machinery/door/airlock/command/glass{
 	name = "Blueshield";
-	req_access_txt = "19"
+	req_access_txt = "72"
 	},
 /turf/open/floor/wood,
 /area/command/blueshieldoffice)
@@ -33316,7 +33349,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/table/wood,
+/obj/structure/closet/secure_closet/psychology,
 /turf/open/floor/wood,
 /area/medical/psychology)
 "mIZ" = (
@@ -34904,7 +34937,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
 	name = "Blueshield's Quarters";
-	req_access_txt = "19"
+	req_access_txt = "72"
 	},
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -35100,7 +35133,10 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/gun/energy/laser/scatter/shotty,
+/obj/item/gun/energy/laser/scatter/shotty{
+	pixel_x = -3;
+	pixel_y = 3
+	},
 /obj/item/gun/energy/laser/scatter/shotty,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
@@ -42003,7 +42039,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
 	name = "Blueshield's Quarters";
-	req_access_txt = "19"
+	req_access_txt = "72"
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -44744,6 +44780,14 @@
 /obj/effect/landmark/event_spawn,
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/structure/bed/dogbed{
+	desc = "A comfy-looking pet bed. You can even strap your pet in, in case the gravity turns off.";
+	name = "pet bed"
+	},
+/mob/living/simple_animal/hostile/retaliate/bat/secbat{
+	desc = "An adorable fruit bat with a cute little hat, may or may not have a reputation for biting out eyeballs, or at least that's what the HoS'd tell you.";
+	name = "Colonel Chomps"
 	},
 /turf/open/floor/carpet,
 /area/command/heads_quarters/hos)
@@ -49843,16 +49887,9 @@
 /turf/open/floor/plating,
 /area/maintenance/department/security)
 "uaU" = (
-/obj/structure/bed/dogbed{
-	desc = "A comfy-looking pet bed. You can even strap your pet in, in case the gravity turns off.";
-	name = "pet bed"
-	},
-/mob/living/simple_animal/hostile/retaliate/bat/secbat{
-	desc = "An adorable fruit bat with a cute little hat, may or may not have a reputation for biting out eyeballs, or at least that's what the HoS'd tell you.";
-	name = "Colonel Chomps"
-	},
-/turf/open/floor/carpet,
-/area/command/heads_quarters/hos)
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/command/blueshieldoffice)
 "uba" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
@@ -51540,8 +51577,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/structure/table/wood,
-/obj/item/storage/box/seccarts,
+/obj/machinery/vending/wardrobe/hos_wardrobe,
 /turf/open/floor/carpet,
 /area/command/heads_quarters/hos)
 "uWS" = (
@@ -53262,17 +53298,17 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/maintenance{
-	name = "Blueshield's Office Maintenance";
-	req_access_txt = "19"
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/plating,
+/obj/machinery/door/airlock/command/glass{
+	name = "Blueshield";
+	req_access_txt = "72"
+	},
+/turf/open/floor/wood,
 /area/hallway/secondary/exit/departure_lounge)
 "vGT" = (
 /turf/open/floor/wood,
@@ -55605,8 +55641,8 @@
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
 "wJL" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
+/obj/machinery/vending/wardrobe/blueshield_wardrobe,
+/turf/open/floor/carpet,
 /area/command/blueshieldoffice)
 "wJN" = (
 /obj/effect/turf_decal/tile/blue{
@@ -56925,10 +56961,19 @@
 /obj/structure/rack,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/gun/energy/e_gun{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/gun/energy/e_gun{
+	pixel_x = -3;
+	pixel_y = 3
+	},
 /obj/item/gun/energy/e_gun,
-/obj/item/gun/energy/e_gun,
-/obj/item/gun/energy/e_gun,
-/obj/item/gun/energy/e_gun,
+/obj/item/gun/energy/e_gun{
+	pixel_x = 3;
+	pixel_y = -3
+	},
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
 "xrL" = (
@@ -89771,7 +89816,7 @@ bFs
 bJt
 fKC
 uaC
-uaU
+jae
 uWQ
 fKC
 giT
@@ -97202,7 +97247,7 @@ avT
 avT
 avT
 xUL
-gbc
+uaU
 ebE
 gbc
 gbc
@@ -97459,7 +97504,7 @@ avT
 avT
 avT
 xUL
-gbc
+uaU
 kLz
 aZi
 aZi
@@ -97976,9 +98021,9 @@ xUL
 avT
 avT
 avT
-gbc
+uaU
 ebE
-gbc
+uaU
 avT
 avT
 avT
@@ -98238,7 +98283,7 @@ mdJ
 gbc
 gbc
 gbc
-avT
+gbc
 avT
 avT
 avT
@@ -98495,7 +98540,7 @@ ugk
 pEN
 xob
 wJL
-avT
+uaU
 avT
 avT
 bLT
@@ -98751,8 +98796,8 @@ eOT
 pbl
 nrZ
 myr
-wJL
-avT
+dBs
+uaU
 avT
 avT
 bLT
