@@ -18812,12 +18812,17 @@
 /turf/open/floor/plasteel,
 /area/cargo/office)
 "aVs" = (
-/obj/structure/plasticflaps/opaque,
 /obj/machinery/conveyor{
-	dir = 4;
+	dir = 8;
 	id = "cargodeliver"
 	},
 /obj/effect/turf_decal/delivery,
+/obj/machinery/door/window/westright{
+	dir = 4;
+	name = "Crates";
+	req_access_txt = "31"
+	},
+/obj/structure/plasticflaps/opaque,
 /obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
 /area/cargo/office)
