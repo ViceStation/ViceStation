@@ -4,7 +4,7 @@
 	name = "railing"
 	desc = "A railing to stop people from falling"
 
-	icon = 'modular_splurt/icons/obj/railings.dmi'
+	icon = 'icons/obj/railings.dmi'
 	var/icon_modifier = "grey_"
 	icon_state = "grey_railing0"
 
@@ -108,21 +108,21 @@
 	else
 		icon_state = "[icon_modifier]railing1"
 		if (check & 32)
-			overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]corneroverlay")
+			overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]corneroverlay")
 		if ((check & 16) || !(check & 32) || (check & 64))
-			overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]frontoverlay_l")
+			overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]frontoverlay_l")
 		if (!(check & 2) || (check & 1) || (check & 4))
-			overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]frontoverlay_r")
+			overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]frontoverlay_r")
 			if(check & 4)
 				switch (src.dir)
 					if (NORTH)
-						overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_x = 32)
+						overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_x = 32)
 					if (SOUTH)
-						overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_x = -32)
+						overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_x = -32)
 					if (EAST)
-						overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_y = -32)
+						overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_y = -32)
 					if (WEST)
-						overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_y = 32)
+						overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_y = 32)
 
 /obj/structure/railing/examine(mob/user)
 	. = ..()
@@ -151,12 +151,14 @@
 
 	usr.visible_message("<span class='warning'>[user] starts climbing onto \the [src]!</span>")
 
-	if(!do_after(user, 20, target = src))
+	if(!do_after(user, 15, src))
 		return
 
 	if(get_turf(user) == get_turf(src))
+		usr.dir = get_dir(usr.loc, get_step(src, src.dir))//turn and face railing
 		usr.forceMove(get_step(src, src.dir))
 	else
+		usr.dir = get_dir(usr.loc, loc)//turn and face railing
 		usr.forceMove(get_turf(src))
 
 	usr.visible_message("<span class='warning'>[user] climbed over \the [src]!</span>")
@@ -165,7 +167,7 @@
 	name = "handrail"
 	desc = "A waist high handrail, perhaps you could climb over it."
 
-	icon = 'modular_splurt/icons/obj/railings.dmi'
+	icon = 'icons/obj/railings.dmi'
 	icon_modifier = "hand_"
 	icon_state = "hand_railing0"
 	max_integrity = 100
@@ -178,18 +180,18 @@
 	else
 		icon_state = "[icon_modifier]railing1"
 		if (check & 32)
-			overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]corneroverlay")
+			overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]corneroverlay")
 		if ((check & 16) || !(check & 32) || (check & 64))
-			overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]frontoverlay_l")
+			overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]frontoverlay_l")
 		if (!(check & 2) || (check & 1) || (check & 4))
-			overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]frontoverlay_r")
+			overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]frontoverlay_r")
 			if(check & 4)
 				switch (src.dir)
 					if (NORTH)
-						overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_x = 32)
+						overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_x = 32)
 					if (SOUTH)
-						overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_x = -32)
+						overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_x = -32)
 					if (EAST)
-						overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_y = -32)
+						overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_y = -32)
 					if (WEST)
-						overlays += image ('modular_splurt/icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_y = 32)
+						overlays += image ('icons/obj/railings.dmi', src, "[icon_modifier]mcorneroverlay", pixel_y = 32)

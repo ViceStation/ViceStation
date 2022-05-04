@@ -13,6 +13,7 @@
 		#include "map_files\BoxStation\BoxStation.dmm"
 		#include "map_files\LambdaStation\lambda.dmm"
 		#include "map_files\SpookyStation\SpookyStation.dmm"
+		#include "map_files\ViceSnaxi\Snaxi_Vice.dmm"
 
 		#ifdef CIBUILDING
 			#include "templates.dm"
