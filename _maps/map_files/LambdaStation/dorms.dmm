@@ -1267,6 +1267,9 @@
 	dir = 1
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
 "cO" = (
@@ -3133,6 +3136,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/service/cafeteria)
+"ig" = (
+/obj/machinery/telecomms/relay/preset/mining{
+	name = "second floor relay"
+	},
+/turf/open/floor/wood,
+/area/service/hydroponics/garden/monastery)
 "ih" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/external{
@@ -6322,6 +6331,27 @@
 /obj/effect/turf_decal/trimline/green/filled/line,
 /turf/open/floor/plasteel,
 /area/service/hydroponics)
+"qe" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/commons/fitness/recreation)
 "qf" = (
 /obj/structure/chair/wood/wings{
 	dir = 8
@@ -8855,6 +8885,9 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
 "wT" = (
@@ -9352,7 +9385,7 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "1-4"
 	},
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
@@ -12718,9 +12751,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/service)
 "GL" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/effect/turf_decal/trimline/neutral/filled/line{
 	dir = 4
 	},
@@ -12730,6 +12760,9 @@
 	pixel_x = -28
 	},
 /obj/machinery/door/firedoor,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
 "GM" = (
@@ -14107,10 +14140,7 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
+	icon_state = "0-4"
 	},
 /turf/open/floor/plasteel,
 /area/commons/fitness/recreation)
@@ -56471,7 +56501,7 @@ FC
 pK
 Bs
 cn
-ae
+ig
 ae
 ae
 ae
@@ -60631,7 +60661,7 @@ ji
 qi
 QH
 wS
-wS
+qe
 cN
 Lf
 qi
