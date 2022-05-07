@@ -3136,12 +3136,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/service/cafeteria)
-"ig" = (
-/obj/machinery/telecomms/relay/preset/mining{
-	name = "second floor relay"
-	},
-/turf/open/floor/wood,
-/area/service/hydroponics/garden/monastery)
 "ih" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /obj/machinery/door/airlock/external{
@@ -56507,7 +56501,7 @@ FC
 pK
 Bs
 cn
-ig
+ae
 ae
 ae
 ae
