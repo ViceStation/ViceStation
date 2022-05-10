@@ -10312,7 +10312,6 @@
 	},
 /obj/machinery/power/apc{
 	areastring = "/area/command/heads_quarters/captain";
-	dir = 2;
 	name = "Captain's Office APC";
 	pixel_y = -23
 	},
@@ -11723,6 +11722,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+/obj/structure/rack,
+/obj/item/circuitboard/machine/circulator,
+/obj/item/circuitboard/machine/circulator,
+/obj/item/circuitboard/machine/generator,
 /turf/open/floor/plasteel,
 /area/engineering/atmospherics_engine)
 "cPn" = (
@@ -41279,6 +41282,10 @@
 /area/medical/virology)
 "qal" = (
 /obj/item/kirbyplants/random,
+/obj/structure/railing{
+	dir = 8;
+	pixel_x = -5
+	},
 /turf/open/floor/plasteel/dark/corner,
 /area/hallway/primary/starboard/aft)
 "qaF" = (
@@ -57077,15 +57084,10 @@
 /turf/open/floor/engine/vacuum,
 /area/maintenance/disposal/incinerator)
 "xnK" = (
-/obj/structure/railing{
-	dir = 6
-	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/obj/structure/railing{
-	dir = 4
-	},
+/obj/structure/railing,
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard/aft)
 "xnP" = (
