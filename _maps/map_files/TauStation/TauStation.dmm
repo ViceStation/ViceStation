@@ -15239,10 +15239,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"fls" = (
-/obj/machinery/space_heater,
-/turf/closed/wall/r_wall,
-/area/medical/genetics)
 "flA" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
@@ -41887,7 +41883,6 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/disposalpipe/segment,
-/obj/machinery/space_heater,
 /turf/open/floor/plasteel/white,
 /area/science)
 "oyw" = (
@@ -103916,7 +103911,7 @@ cLB
 wVO
 whd
 xJt
-fls
+wqW
 jkx
 pIX
 euh
