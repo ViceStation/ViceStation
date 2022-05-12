@@ -1731,6 +1731,7 @@ GLOBAL_LIST(objective_choices)
 /mob/living/silicon/robot/mind_initialize()
 	..()
 	mind.assigned_role = "Cyborg"
+	SEND_SIGNAL(src, COMSIG_SILICON_MIND_ATTACHED, src) //Sends the signal that a mind has been attached. Used when adding initial flavortext to silicon.
 
 //PAI
 /mob/living/silicon/pai/mind_initialize()
