@@ -173,3 +173,10 @@
 	usesound = 'sound/items/pshoom.ogg'
 	toolspeed = 0.2
 	random_color = FALSE
+
+/obj/item/screwdriver/makeshift
+	name = "Makeshift Screwdriver"
+	desc = "It's a metal rod with a crudely hammered tip."
+	icon_state = "screwdriver_makeshift"
+	toolspeed = 2.5
+	random_color = FALSE

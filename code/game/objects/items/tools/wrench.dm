@@ -139,3 +139,9 @@
 	icon_state = "wrench"
 	usesound = 'sound/effects/empulse.ogg'
 	toolspeed = 0.2
+
+/obj/item/wrench/makeshift
+	name = "Makeshift Wrench"
+	desc = "It's a metal rod with a metal sheet crudely hammered around the tip."
+	icon_state = "makeshift_wrench"
+	toolspeed = 2.5

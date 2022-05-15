@@ -178,3 +178,10 @@
 	icon_state = "cutters"
 	toolspeed = 0.2
 	random_color = FALSE
+
+/obj/item/wirecutters/makeshift
+	name = "Makeshift Wirecutters"
+	desc = "It's two metal rods hammered flat with a bolt through the middle, and cable grips."
+	icon_state = "cutters_makeshift"
+	toolspeed = 2.5
+	random_color = FALSE
