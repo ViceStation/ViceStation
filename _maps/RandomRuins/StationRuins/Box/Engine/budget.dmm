@@ -469,7 +469,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/space)
+/area/engineering/main)
 "Hu" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
 	dir = 5
