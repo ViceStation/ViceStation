@@ -151,6 +151,17 @@
 		if(W.active)
 			sawoff(user)
 
+/obj/item/gun/ballistic/shotgun/levershot
+	name = "Lever action shotgun (12 Gauge)"
+	desc = "A lever action based shotgun. Makes you feel like a cowboy."
+	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
+	icon_state = "lever"
+	item_state = "shotgun"
+	fire_delay = 5
+	mag_type = /obj/item/ammo_box/magazine/internal/shot
+	w_class = WEIGHT_CLASS_BULKY
+	weapon_weight = WEAPON_HEAVY
+
 /obj/item/gunpart/rifle308sotck
 	name = "hunting rifle stock"
 	desc = "a hunting rifle stock"
