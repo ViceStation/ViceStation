@@ -316,7 +316,7 @@
 	name = "KS-23 Shotgun"
 	desc = "A pump action heavy shotgun. Compatible with all 4 Gauge rounds. Designed for close \
 			quarter anti-personnel engagements."
-	item = /obj/item/gun/ballistic/automatic/shotgun/ks23
+	item = /obj/item/gun/ballistic/shotgun/ks23
 	cost = 12
 	surplus = 46
 	purchasable_from = UPLINK_NUKE_OPS
