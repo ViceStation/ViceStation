@@ -303,8 +303,8 @@
 	purchasable_from = UPLINK_NUKE_OPS
 
 /datum/uplink_item/ammo/bolt_action_bulk
-	name = "Surplus Rifle Clip Box"
-	desc = "An ammo box we found in a warehouse, holding 7 clips of 5 rounds for bolt-action rifles. Yes, the cheap ones."
+	name = "Surplus Rifle Magazine Box"
+	desc = "An ammo box we found in a warehouse, holding 7 magazines of 5 rounds for bolt-action rifles. Yes, the cheap ones."
 	item = /obj/item/storage/toolbox/ammo
 	cost = 4
 	purchasable_from = UPLINK_NUKE_OPS
@@ -322,3 +322,17 @@
 	item = /obj/item/storage/backpack/duffelbag/syndie/ammo/mauler
 	cost = 6
 	purchasable_from = UPLINK_NUKE_OPS
+
+datum/uplink_item/ammo/klobb
+	name = "Klobb Machine Pistol Magazine"
+	desc = "An additional 20 round Magazine for the Klobb. These .32 rounds \
+			are cheaper then dirt and half effective as 10mm."
+	item = /obj/item/ammo_box/magazine/klobb
+	cost = 2
+	purchasable_from = ~UPLINK_CLOWN_OPS
+
+/datum/uplink_item/ammo/shotgun/bag/ks23
+	name = "4 gauge Ammo Duffel Bag"
+	desc = "A duffel bag filled with enough 4 gauge ammo to supply an entire team, at a discounted price. Meant for use in the KS-23"
+	item = /obj/item/storage/backpack/duffelbag/syndie/ammo/ks23
+	cost = 15

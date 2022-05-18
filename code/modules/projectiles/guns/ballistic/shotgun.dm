@@ -1,5 +1,5 @@
 /obj/item/gun/ballistic/shotgun
-	name = "shotgun"
+	name = "shotgun (12 gauge)"
 	desc = "A traditional shotgun with wood furniture and a four-shell capacity underneath."
 	icon_state = "shotgun"
 	item_state = "shotgun"
@@ -88,7 +88,7 @@
 // RIOT SHOTGUN //
 
 /obj/item/gun/ballistic/shotgun/riot //for spawn in the armory
-	name = "riot shotgun"
+	name = "Riot shotgun (12 gauge)"
 	desc = "A sturdy shotgun with a longer magazine and a fixed tactical stock designed for non-lethal riot control."
 	icon_state = "riotshotgun"
 	fire_delay = 7
@@ -228,7 +228,7 @@
 	src.pump(user)
 
 /obj/item/gun/ballistic/shotgun/automatic/combat
-	name = "combat shotgun"
+	name = "Combat shotgun (12 gauge)"
 	desc = "A semi automatic shotgun with tactical furniture and a six-shell capacity underneath."
 	icon_state = "cshotgun"
 	fire_delay = 5
@@ -239,7 +239,7 @@
 						)
 
 /obj/item/gun/ballistic/shotgun/automatic/combat/compact
-	name = "warden's combat shotgun"
+	name = "Warden's combat shotgun (12 gauge)"
 	desc = "A modified version of the semi-automatic combat shotgun with a collapsible stock and a safety that prevents firing while folded. For close encounters."
 	icon_state = "cshotgunc"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/com
@@ -287,8 +287,8 @@
 
 //Dual Feed Shotgun
 
-/obj/item/gun/ballistic/shotgun/automatic/dual_tube
-	name = "cycler shotgun"
+/obj/item/gun/ballistic/shotgun/automatic/dual_tube //Still borken
+	name = "Cycler shotgun (12 gauge)"
 	desc = "An advanced shotgun with two separate magazine tubes, allowing you to quickly toggle between ammo types."
 	icon_state = "cycler"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube
@@ -332,7 +332,7 @@
 //due to code weirdness, and the fact that a refactor is coming soon anyway, the barman's shotgun and maint shotgun are in revolver.dm
 
 /obj/item/gun/ballistic/shotgun/doublebarrel/hook
-	name = "hook modified sawn-off shotgun"
+	name = "hook modified sawn-off shotgun (12 gauge)"
 	desc = "Range isn't an issue when you can bring your victim to you."
 	icon_state = "hookshotgun"
 	item_state = "shotgun"
@@ -350,7 +350,7 @@
 // LEVER GUNS?
 
 /obj/item/gun/ballistic/shotgun/leveraction
-	name = "lever-action rifle"
+	name = "lever-action rifle (.38)"
 	desc = "While lever-actions have been horribly out of date for hundreds of years now, \
 	the reported potential versatility of .38 Special is worth paying attention to."
 	fire_sound = "sound/weapons/revolvershot.ogg"

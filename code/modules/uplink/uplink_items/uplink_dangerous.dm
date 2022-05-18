@@ -24,6 +24,14 @@
 	surplus = 50
 	purchasable_from = ~UPLINK_CLOWN_OPS
 
+/datum/uplink_item/dangerous/klobb
+	name = "Klobb Machine Pistol"
+	desc = "A sleek box containing a small, easily concealable machine pistol that uses 10mm auto rounds in 20-round magazines. The weapon is compatible \
+			with suppressors."
+	item = /obj/item/storage/box/syndie_kit/klobb
+	cost = 9
+	purchasable_from = ~UPLINK_CLOWN_OPS
+
 /datum/uplink_item/dangerous/rawketlawnchair
 	name = "84mm Rocket Propelled Grenade Launcher"
 	desc = "A reusable rocket propelled grenade launcher preloaded with a low-yield 84mm HE round. \
@@ -303,3 +311,12 @@
 	item = /obj/item/fuel_rod/material/telecrystal
 	cost = 7
 	restricted_roles = list("Chief Engineer", "Station Engineer", "Atmospheric Technician")
+
+/datum/uplink_item/dangerous/ks23
+	name = "KS-23 Shotgun"
+	desc = "A pump action heavy shotgun. Compatible with all 4 Gauge rounds. Designed for close \
+			quarter anti-personnel engagements."
+	item = /obj/item/gun/ballistic/automatic/shotgun/ks23
+	cost = 12
+	surplus = 46
+	purchasable_from = UPLINK_NUKE_OPS

@@ -698,6 +698,7 @@
 	icon_state = "holster"
 	item_state = "holster"
 	alternate_worn_layer = UNDER_SUIT_LAYER
+	slot_flags = ITEM_SLOT_NECK|ITEM_SLOT_BELT
 
 /obj/item/storage/belt/holster/ComponentInitialize()
 	. = ..()

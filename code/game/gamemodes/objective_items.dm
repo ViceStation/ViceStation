@@ -31,6 +31,12 @@
 	difficulty = 5
 	excludefromjob = list("Captain")
 
+/datum/objective_item/steal/capenforcer
+	name = "the captain's golden gun."
+	targetitem = /obj/item/gun/ballistic/automatic/pistol/enforcergold
+	difficulty = 10
+	excludefromjob = list("Captain")
+
 /datum/objective_item/steal/hoslaser
 	name = "the head of security's personal weapon."
 	targetitem = /obj/item/gun/energy/e_gun/hos

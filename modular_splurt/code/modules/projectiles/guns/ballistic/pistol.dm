@@ -15,6 +15,7 @@
 	icon_state = "enforcer_black"
 	w_class = WEIGHT_CLASS_NORMAL
 	mag_type = /obj/item/ammo_box/magazine/e45
+	fire_sound = "sound/weapons/gun_glock.ogg"
 	can_suppress = TRUE
 	can_flashlight = 1
 	flight_x_offset = 18
@@ -44,14 +45,21 @@
 	icon_state = "enforcer_red"
 	w_class = WEIGHT_CLASS_NORMAL
 	mag_type = /obj/item/ammo_box/magazine/e45
+	fire_sound = "sound/weapons/gun_glock.ogg"
 	can_suppress = TRUE
 	can_flashlight = 1
 	flight_x_offset = 18
 	flight_y_offset = 14
+	obj_flags = UNIQUE_RENAME
+
+	unique_reskin = list("Red" = "enforcer_red",
+						"Grey" = "enforcer_grey")
 
 /obj/item/gun/ballistic/automatic/pistol/enforcerred/update_icon_state()
-	icon_state = "[initial(icon_state)][suppressed ? "-suppressed" : ""][chambered ? "" : "-e"]"
-
+	if(current_skin)
+		icon_state = "[unique_reskin[current_skin]][suppressed ? "-suppressed" : ""][chambered ? "" : "-e"]"
+	else
+		icon_state = "[initial(icon_state)][suppressed ? "-suppressed" : ""][chambered ? "" : "-e"]"
 
 /obj/item/gun/ballistic/automatic/pistol/enforcergold
 	name = "\improper Gold Mk. 58 Enforcer (.45)"
@@ -60,6 +68,7 @@
 	icon_state = "enforcer_gold"
 	w_class = WEIGHT_CLASS_NORMAL
 	mag_type = /obj/item/ammo_box/magazine/e45
+	fire_sound = "sound/weapons/gun_glock.ogg"
 	can_suppress = TRUE
 	can_flashlight = 1
 	flight_x_offset = 18
@@ -76,6 +85,7 @@
 	icon_state = "enforcer_blue"
 	w_class = WEIGHT_CLASS_NORMAL
 	mag_type = /obj/item/ammo_box/magazine/e45
+	fire_sound = "sound/weapons/gun_glock.ogg"
 	can_suppress = TRUE
 	can_flashlight = 1
 	flight_x_offset = 18
@@ -86,6 +96,25 @@
 
 /obj/item/gun/ballistic/automatic/pistol/enforcerblue/nomag
 	spawnwithmagazine = FALSE
+
+/obj/item/gun/ballistic/automatic/pistol/enforcergreen //CentCom Sidearm
+	name = "\improper CentCom Mk. 58 Enforcer (.45)"
+	desc = "A polymer frame pistol made by Nanotreason. Won't show up on Space port X-rays and cost more then you make in a month. Commisioned for use by CentCom personnel and has a fire selector."
+	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
+	icon_state = "enforcer_green"
+	w_class = WEIGHT_CLASS_NORMAL
+	mag_type = /obj/item/ammo_box/magazine/e45
+	fire_sound = "sound/weapons/gun_glock.ogg"
+	can_suppress = TRUE
+	can_flashlight = 1
+	flight_x_offset = 18
+	flight_y_offset = 14
+	burst_size = 2
+	fire_delay = 2
+	actions_types = list(/datum/action/item_action/toggle_firemode)
+
+/obj/item/gun/ballistic/automatic/pistol/enforcergreen/update_icon_state()
+	icon_state = "[initial(icon_state)][suppressed ? "-suppressed" : ""][chambered ? "" : "-e"]"
 
 /obj/item/gun/ballistic/automatic/pistol/m9mmpistol
 	name = "\improper Cheap 9mm Handgun"

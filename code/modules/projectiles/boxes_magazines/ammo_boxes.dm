@@ -158,7 +158,7 @@
 
 //Shotgun clips
 /obj/item/ammo_box/shotgun
-	name = "stripper clip (shotgun shells)"
+	name = "stripper clip (12g shotgun shells)"
 	desc = "A stripper clip, designed to help with loading a shotgun slightly faster."
 	icon = 'icons/obj/ammo.dmi'
 	icon_state = "shotgunclip"
