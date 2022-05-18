@@ -7833,6 +7833,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
+	},
 /turf/open/floor/plating,
 /area/maintenance/fore/secondary)
 "aqn" = (
@@ -10050,7 +10055,6 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "awE" = (
-/obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
@@ -10381,6 +10385,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 10
 	},
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
+	},
 /turf/open/floor/plating,
 /area/maintenance/fore)
 "axy" = (
@@ -10557,6 +10566,11 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
 	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
+	},
 /turf/open/floor/plating,
 /area/maintenance/fore)
 "aye" = (
@@ -10664,6 +10678,11 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 10
+	},
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
@@ -11823,6 +11842,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
+	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "aBK" = (
@@ -12645,6 +12669,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
+	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "aEf" = (
@@ -12768,6 +12797,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 1
+	},
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
@@ -13490,6 +13524,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 1
+	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
@@ -16311,15 +16350,19 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
 "aOs" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/obj/machinery/meter,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
+	},
 /turf/open/floor/plating,
-/area/maintenance/fore)
+/area/maintenance/fore/secondary)
 "aOv" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -18951,18 +18994,19 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
 "aVC" = (
-/obj/machinery/meter,
+/obj/structure/disposalpipe/segment,
 /obj/structure/cable{
-	icon_state = "4-8"
+	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
 	},
 /turf/open/floor/plating,
-/area/maintenance/port)
+/area/maintenance/department/medical/morgue)
 "aVD" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/condiment/saltshaker{
@@ -20649,9 +20693,13 @@
 /turf/open/floor/plating,
 /area/maintenance/port)
 "aZs" = (
-/obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 10
+	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
 	},
 /turf/open/floor/plating,
 /area/maintenance/port)
@@ -24370,6 +24418,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 5
 	},
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
+	},
 /turf/open/floor/plating,
 /area/maintenance/port)
 "bji" = (
@@ -25015,12 +25068,16 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
+	},
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
@@ -25345,6 +25402,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 4
+	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
@@ -34986,6 +35048,11 @@
 /obj/effect/landmark/event_spawn,
 /obj/structure/grille/broken,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
+	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "bHV" = (
@@ -35753,6 +35820,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 4
+	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
@@ -39674,6 +39746,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 6
 	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
+	},
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "bUx" = (
@@ -39688,6 +39765,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
+	},
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
 "bUz" = (
@@ -41596,6 +41678,11 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 8
 	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
+	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "bZS" = (
@@ -41889,6 +41976,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 8
+	},
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
@@ -43358,9 +43450,13 @@
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "ceM" = (
-/obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 6
+	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
@@ -43371,8 +43467,12 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "ceO" = (
-/obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1,
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
+	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "ceP" = (
@@ -43867,6 +43967,11 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
+	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
@@ -51621,9 +51726,13 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
 "dce" = (
-/obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
 	dir = 8
+	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
@@ -54166,6 +54275,20 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating,
 /area/maintenance/port/fore)
+"gud" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
+	},
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "gvX" = (
 /turf/open/floor/plasteel/yellowsiding,
 /area/commons/fitness/pool)
@@ -58768,9 +58891,22 @@
 /turf/open/floor/plasteel/dark,
 /area/maintenance/starboard/aft)
 "mFo" = (
-/obj/machinery/meter,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 8
+	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
-	dir = 5
+	dir = 4
+	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
@@ -62935,6 +63071,18 @@
 	},
 /turf/open/floor/plasteel,
 /area/service/hydroponics)
+"sHR" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/meter{
+	layer = 3;
+	name = "Scrubber flow meter";
+	target_layer = 3
+	},
+/turf/open/floor/plating,
+/area/maintenance/aft)
 "sIn" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -63033,6 +63181,9 @@
 /obj/machinery/door/airlock/maintenance/abandoned,
 /obj/structure/cable/white{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
@@ -63844,6 +63995,11 @@
 "tRB" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 5
+	},
+/obj/machinery/meter{
+	layer = 1;
+	name = "Air flow meter";
+	target_layer = 1
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
@@ -88009,7 +88165,7 @@ aPG
 aPG
 aPG
 aPG
-aVC
+aLM
 hPP
 baS
 aZp
@@ -88511,7 +88667,7 @@ uRS
 uRS
 aDv
 uRS
-aOs
+uRS
 uRS
 uRS
 fcn
@@ -99090,7 +99246,7 @@ bFl
 bhQ
 bHU
 bJv
-mFo
+bvd
 bLK
 bVW
 bOd
@@ -100832,7 +100988,7 @@ ajp
 ajp
 ajp
 ajo
-apt
+aOs
 aqm
 arf
 arf
@@ -105529,7 +105685,7 @@ bLT
 bLT
 bLT
 bLT
-bLT
+gud
 caM
 cbL
 cbL
@@ -107589,7 +107745,7 @@ bZS
 caR
 bzs
 ccL
-cgd
+sHR
 ceL
 ceJ
 cgh
@@ -108086,7 +108242,7 @@ bHb
 bIw
 bBN
 jNT
-caU
+mFo
 bNd
 bOt
 bPu
@@ -108839,7 +108995,7 @@ bgo
 cTS
 cTS
 blq
-cTS
+aVC
 cTS
 bpQ
 cTS
