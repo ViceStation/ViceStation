@@ -665,8 +665,8 @@
 /obj/item/storage/backpack/duffelbag/syndie/ammo/ks23
 	desc = "A large duffel bag, packed to the brim with KS-23 ammo boxes."
 
-/obj/item/storage/backpack/duffelbag/syndie/ammo/ks34/PopulateContents()
+/obj/item/storage/backpack/duffelbag/syndie/ammo/ks23/PopulateContents()
 	for(var/i in 1 to 4)
-		new /obj/item/storage/box/barricade(src)
+	new /obj/item/storage/box/barricade(src)
 	new /obj/item/storage/box/wave(src)
 	new /obj/item/storage/box/shrapnel25(src)
