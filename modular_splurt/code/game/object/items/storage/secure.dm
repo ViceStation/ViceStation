@@ -19,7 +19,7 @@
 	desc = "A storage case for a Enforcer Handgun. Gold as fuck!"
 
 
-/obj/item/storage/secure/briefcase/hos/cap_e45_pack/PopulateContents()
+/obj/item/storage/secure/briefcase/cap_e45_pack/PopulateContents()
 	new /obj/item/gun/ballistic/automatic/pistol/enforcergold(src)
 	new /obj/item/ammo_box/magazine/e45/lethal(src)
 	new /obj/item/ammo_box/magazine/e45/lethal(src)
