@@ -72,3 +72,10 @@
 	caliber = "shotgun"
 	max_ammo = 4
 	multiload = 0
+
+/obj/item/ammo_box/magazine/internal/ks23
+	name = "ks-23 internal magazine"
+	ammo_type = /obj/item/ammo_casing/shotgungauge4
+	caliber = "4gauge"
+	max_ammo = 3
+	multiload = 0

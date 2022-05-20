@@ -85,3 +85,11 @@
 /obj/item/ammo_box/magazine/smg22/rubber
 	name = "FTU SMG magazine (.22 Rubber)"
 	ammo_type = /obj/item/ammo_casing/c22lr/rubber
+
+/obj/item/ammo_box/magazine/klobb
+	name = "Klobb magazine (.32)"
+	desc = "A magazine for a Klobb Machine pistol."
+	icon_state = "klobb"
+	ammo_type = /obj/item/ammo_casing/c32
+	caliber = ".32"
+	max_ammo = 20

@@ -156,3 +156,19 @@
 
 /obj/item/gun/ballistic/automatic/smg22/nomag
 	spawnwithmagazine = FALSE
+
+/obj/item/gun/ballistic/automatic/klobb
+	name = "\improper Klobb Machine Pistol (.32 Auto)"
+	desc = "A lightweight, burst-fire machine pistol based on the Vz. 61 'Skorpian' from the Sol system. Uses .32 Auto rounds."
+	icon_state = "klobb"
+	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
+	mag_type = /obj/item/ammo_box/magazine/klobb
+	w_class = WEIGHT_CLASS_SMALL
+	weapon_weight = WEAPON_LIGHT
+	fire_delay = 3
+	burst_size = 2
+	automatic_burst_overlay = FALSE
+	spread = 3 //For balacing
+
+/obj/item/gun/ballistic/automatic/klobb/update_icon_state()
+	icon_state = "[initial(icon_state)][suppressed ? "-suppressed" : ""][magazine ? "" : "-e"]"

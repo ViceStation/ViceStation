@@ -125,3 +125,9 @@
 	usesound = 'sound/weapons/sonic_jackhammer.ogg'
 	icon_state = "crowbar"
 	toolspeed = 0.2
+
+/obj/item/crowbar/makeshift
+	name = "Makeshift Crowbar"
+	desc = "It's just a slightly bent metal rod."
+	icon_state = "makeshift_crowbar"
+	toolspeed = 2.5

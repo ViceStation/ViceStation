@@ -14,6 +14,19 @@
 	new /obj/item/ammo_box/magazine/e45/taser(src)
 	new /obj/item/ammo_box/magazine/e45/taser(src)
 
+/obj/item/storage/secure/briefcase/cap_e45_pack
+	name = "\improper \'Enforcer\' gun kit"
+	desc = "A storage case for a Enforcer Handgun. Gold as fuck!"
+
+
+/obj/item/storage/secure/briefcase/cap_e45_pack/PopulateContents()
+	new /obj/item/gun/ballistic/automatic/pistol/enforcergold(src)
+	new /obj/item/ammo_box/magazine/e45/lethal(src)
+	new /obj/item/ammo_box/magazine/e45/lethal(src)
+	new /obj/item/ammo_box/magazine/e45(src)
+	new /obj/item/ammo_box/magazine/e45/taser(src)
+	new /obj/item/ammo_box/magazine/e45/taser(src)
+
 // Sec Officer Boxes
 
 /obj/item/storage/secure/briefcase/cop/advtaser_box

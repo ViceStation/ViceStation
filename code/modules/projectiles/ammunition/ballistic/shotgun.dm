@@ -1,7 +1,7 @@
 // Shotgun
 
 /obj/item/ammo_casing/shotgun
-	name = "shotgun slug"
+	name = "12 gauge shotgun slug"
 	desc = "A 12 gauge lead slug."
 	icon_state = "blshell"
 	caliber = "shotgun"
@@ -9,32 +9,32 @@
 	custom_materials = list(/datum/material/iron=4000)
 
 /obj/item/ammo_casing/shotgun/executioner
-	name = "executioner slug"
+	name = "12 gauge executioner slug"
 	desc = "A 12 gauge lead slug purpose built to annihilate flesh on impact."
 	icon_state = "stunshell"
 	projectile_type = /obj/item/projectile/bullet/shotgun_slug/executioner
 
 /obj/item/ammo_casing/shotgun/pulverizer
-	name = "pulverizer slug"
+	name = "12 gaugepulverizer slug"
 	desc = "A 12 gauge lead slug purpose built to annihilate bones on impact."
 	icon_state = "stunshell"
 	projectile_type = /obj/item/projectile/bullet/shotgun_slug/pulverizer
 
 /obj/item/ammo_casing/shotgun/beanbag
-	name = "beanbag slug"
+	name = "12 gauge beanbag slug"
 	desc = "A weak beanbag slug for riot control."
 	icon_state = "bshell"
 	projectile_type = /obj/item/projectile/bullet/shotgun_beanbag
 	custom_materials = list(/datum/material/iron=250)
 
 /obj/item/ammo_casing/shotgun/incendiary
-	name = "incendiary slug"
+	name = "12 gauge incendiary slug"
 	desc = "An incendiary-coated shotgun slug."
 	icon_state = "ishell"
 	projectile_type = /obj/item/projectile/bullet/incendiary/shotgun
 
 /obj/item/ammo_casing/shotgun/dragonsbreath
-	name = "dragonsbreath shell"
+	name = "12 gauge dragonsbreath shell"
 	desc = "A shotgun shell which fires a spread of incendiary pellets."
 	icon_state = "ishell2"
 	projectile_type = /obj/item/projectile/bullet/incendiary/shotgun/dragonsbreath
@@ -42,20 +42,20 @@
 	variance = 35
 
 /obj/item/ammo_casing/shotgun/stunslug
-	name = "taser slug"
+	name = "12 gauge taser slug"
 	desc = "A stunning taser slug."
 	icon_state = "stunshell"
 	projectile_type = /obj/item/projectile/bullet/shotgun_stunslug
 	custom_materials = list(/datum/material/iron=250)
 
 /obj/item/ammo_casing/shotgun/meteorslug
-	name = "meteorslug shell"
+	name = "12 gauge meteorslug shell"
 	desc = "A shotgun shell rigged with CMC technology, which launches a massive slug when fired."
 	icon_state = "mshell"
 	projectile_type = /obj/item/projectile/bullet/shotgun_meteorslug
 
 /obj/item/ammo_casing/shotgun/pulseslug
-	name = "pulse slug"
+	name = "12 gauge pulse slug"
 	desc = "A delicate device which can be loaded into a shotgun. The primer acts as a button which triggers the gain medium and fires a powerful \
 	energy blast. While the heat and power drain limit it to one use, it can still allow an operator to engage targets that ballistic ammunition \
 	would have difficulty with."
@@ -69,7 +69,7 @@
 	projectile_type = /obj/item/projectile/bullet/shotgun_frag12
 
 /obj/item/ammo_casing/shotgun/buckshot
-	name = "buckshot shell"
+	name = "12 gauge buckshot shell"
 	desc = "A 12 gauge buckshot shell."
 	icon_state = "gshell"
 	projectile_type = /obj/item/projectile/bullet/pellet/shotgun_buckshot
@@ -77,7 +77,7 @@
 	variance = 25
 
 /obj/item/ammo_casing/shotgun/rubbershot
-	name = "rubber shot"
+	name = "12 gauge rubber shot"
 	desc = "A shotgun casing filled with densely-packed rubber balls, used to incapacitate crowds from a distance."
 	icon_state = "bshell"
 	projectile_type = /obj/item/projectile/bullet/pellet/shotgun_rubbershot
@@ -86,7 +86,7 @@
 	custom_materials = list(/datum/material/iron=4000)
 
 /obj/item/ammo_casing/shotgun/improvised
-	name = "improvised shell"
+	name = "improvised 12 gauge shell"
 	desc = "An extremely weak shotgun shell with multiple small pellets made out of metal shards."
 	icon_state = "improvshell"
 	projectile_type = /obj/item/projectile/bullet/pellet/shotgun_improvised
@@ -95,7 +95,7 @@
 	variance = 25
 
 /obj/item/ammo_casing/shotgun/ion
-	name = "ion shell"
+	name = "12 gauge ion shell"
 	desc = "An advanced shotgun shell which uses a subspace ansible crystal to produce an effect similar to a standard ion rifle. \
 	The unique properties of the crystal split the pulse into a spread of individually weaker bolts."
 	icon_state = "ionshell"
@@ -104,7 +104,7 @@
 	variance = 35
 
 /obj/item/ammo_casing/shotgun/laserslug
-	name = "scatter laser shell"
+	name = "12 gauge scatter laser shell"
 	desc = "An advanced shotgun shell that uses a micro laser to replicate the effects of a scatter laser weapon in a ballistic package."
 	icon_state = "lshell"
 	projectile_type = /obj/item/projectile/beam/scatter
@@ -112,13 +112,13 @@
 	variance = 35
 
 /obj/item/ammo_casing/shotgun/techshell
-	name = "unloaded technological shell"
+	name = "unloaded 12 gauge technological shell"
 	desc = "A high-tech shotgun shell which can be loaded with materials to produce unique effects."
 	icon_state = "cshell"
 	projectile_type = null
 
 /obj/item/ammo_casing/shotgun/dart
-	name = "shotgun dart"
+	name = "12 gauge shotgun dart"
 	desc = "A dart for use in shotguns. Can be injected with up to 30 units of any chemical."
 	icon_state = "cshell"
 	projectile_type = /obj/item/projectile/bullet/dart
@@ -132,7 +132,7 @@
 	return
 
 /obj/item/ammo_casing/shotgun/dart/noreact
-	name = "cryostasis shotgun dart"
+	name = "12 gauge cryostasis shotgun dart"
 	desc = "A dart for use in shotguns. Uses technology similar to cryostasis beakers to keep internal reagents from reacting. Can be injected with up to 10 units of any chemical."
 	icon_state = "cnrshell"
 	reagent_amount = 10
@@ -157,10 +157,36 @@
 	reagents.add_reagent(/datum/reagent/consumable/frostoil, 10) //tempgun slowdown goes both ways and adds to the burn
 
 /obj/item/ammo_casing/shotgun/incapacitate
-	name = "custom incapacitating shot"
+	name = "custom 12 gauge incapacitating shot"
 	desc = "A shotgun casing filled with... something. used to incapacitate targets."
 	icon_state = "bountyshell"
 	projectile_type = /obj/item/projectile/bullet/pellet/shotgun_incapacitate
 	pellets = 12//double the pellets, but half the stun power of each, which makes this best for just dumping right in someone's face.
 	variance = 25
 	custom_materials = list(/datum/material/iron=4000)
+
+/obj/item/ammo_casing/shotgungauge4
+	name = "Shrapnel-25"
+	desc = "A 4 gauge shotgun shell loaded with buckshot."
+	icon_state = "stunshell"
+	caliber = "4gauge"
+	projectile_type = /obj/item/projectile/bullet/pellet/sharpenel25
+	custom_materials = list(/datum/material/iron=4000)
+	pellets = 4
+	variance = 15
+
+/obj/item/ammo_casing/shotgungauge4/barricade
+	name = "Barrikada"
+	desc = "A 4 gauge shotgun shell loaded with a steel slug. Oringnaly meant to blow through engine blocks"
+	icon_state = "blshell"
+	projectile_type = /obj/item/projectile/bullet/pellet/barricade
+	pellets = 1
+	variance = 0
+
+/obj/item/ammo_casing/shotgungauge4/wave
+	name = "Volna-R"
+	desc = "A 4 gauge shotgun shell loaded for riot control. Hurts like hell."
+	icon_state = "bshell"
+	projectile_type = /obj/item/projectile/bullet/pellet/wave
+	pellets = 1
+	variance = 0

@@ -1,21 +1,21 @@
 /obj/item/projectile/bullet/shotgun_slug
-	name = "12g shotgun slug"
+	name = "12 gauge shotgun slug"
 	damage = 50
 	sharpness = SHARP_POINTY
 	wound_bonus = 0
 
 /obj/item/projectile/bullet/shotgun_slug/executioner
-	name = "executioner slug" // admin only, can dismember limbs
+	name = "12 gauge executioner slug" // admin only, can dismember limbs
 	sharpness = SHARP_EDGED
 	wound_bonus = 80
 
 /obj/item/projectile/bullet/shotgun_slug/pulverizer
-	name = "pulverizer slug" // admin only, can crush bones
+	name = "12 gauge pulverizer slug" // admin only, can crush bones
 	sharpness = SHARP_NONE
 	wound_bonus = 80
 
 /obj/item/projectile/bullet/shotgun_beanbag
-	name = "beanbag slug"
+	name = "12 gauge beanbag slug"
 	damage = 10
 	stamina = 70
 	wound_bonus = 20
@@ -23,15 +23,15 @@
 	embedding = null
 
 /obj/item/projectile/bullet/incendiary/shotgun
-	name = "incendiary slug"
+	name = "12 gauge incendiary slug"
 	damage = 20
 
 /obj/item/projectile/bullet/incendiary/shotgun/dragonsbreath
-	name = "dragonsbreath pellet"
+	name = "12 gauge dragonsbreath pellet"
 	damage = 5
 
 /obj/item/projectile/bullet/shotgun_stunslug
-	name = "stunslug"
+	name = "12 gauge stunslug"
 	damage = 5
 	stamina = 30
 	stutter = 5
@@ -57,7 +57,7 @@
 			C.apply_status_effect(STATUS_EFFECT_TASED_WEAK, tase_duration)
 
 /obj/item/projectile/bullet/shotgun_meteorslug
-	name = "meteorslug"
+	name = "12 gauge meteorslug"
 	icon = 'icons/obj/meteor.dmi'
 	icon_state = "dust"
 	damage = 20
@@ -76,7 +76,7 @@
 	SpinAnimation()
 
 /obj/item/projectile/bullet/shotgun_frag12
-	name ="frag12 slug"
+	name ="FRAG-12 slug"
 	damage = 25
 	knockdown = 50
 
@@ -90,14 +90,14 @@
 	var/tile_dropoff_s = 1.25
 
 /obj/item/projectile/bullet/pellet/shotgun_buckshot
-	name = "buckshot pellet"
+	name = "12 gauge buckshot pellet"
 	damage = 7.5
 	wound_bonus = 5
 	bare_wound_bonus = 5
 	wound_falloff_tile = -2.5 // low damage + additional dropoff will already curb wounding potential anything past point blank
 
 /obj/item/projectile/bullet/pellet/shotgun_rubbershot
-	name = "rubbershot pellet"
+	name = "12 gauge rubbershot pellet"
 	damage = 2
 	stamina = 15
 	sharpness = SHARP_NONE
@@ -136,6 +136,31 @@
 	stamina = 1
 
 /obj/item/projectile/bullet/pellet/shotgun_incapacitate
-	name = "incapacitating pellet"
+	name = "12 gauge incapacitating pellet"
 	damage = 1
 	stamina = 6
+
+//4 gauge ammo ahead
+
+/obj/item/projectile/bullet/pellet/sharpenel25
+	name = "4 gauge buckshot pellet"
+	damage = 20
+	wound_bonus = 10
+	bare_wound_bonus = 10
+	wound_falloff_tile = -5
+
+/obj/item/projectile/bullet/pellet/barricade
+	name = "4 gauge slug"
+	damage = 50
+	sharpness = SHARP_POINTY
+	wound_bonus = 0
+	bare_wound_bonus = 0
+	armour_penetration = 40
+
+/obj/item/projectile/bullet/pellet/wave
+	name = "4 gauge beanbag"
+	damage = 15
+	stamina = 80
+	wound_bonus = 30
+	sharpness = SHARP_NONE
+	embedding = null

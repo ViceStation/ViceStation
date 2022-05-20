@@ -1452,3 +1452,33 @@
 /obj/item/storage/box/strange_seeds_5pack/PopulateContents()
 	for(var/i in 1 to 5)
 		new /obj/item/seeds/random(src)
+
+/obj/item/storage/box/shrapnel25
+	name = "box of Sharpnel-25 (Lethal)"
+	desc = "A box full of lethal shots, designed for KS-23s."
+	icon_state = "lethalshot_box"
+	illustration = null
+
+/obj/item/storage/box/shrapnel25/PopulateContents()
+	for(var/i in 1 to 7)
+		new /obj/item/ammo_casing/shotgungauge4(src)
+
+/obj/item/storage/box/wave
+	name = "box of Volna-R (Rubber)"
+	desc = "A box full of rubber slugs, designed for KS-23s"
+	icon_state = "rubbershot_box"
+	illustration = null
+
+/obj/item/storage/box/wave/PopulateContents()
+	for(var/i in 1 to 6)
+		new /obj/item/ammo_casing/shotgungauge4/wave(src)
+
+/obj/item/storage/box/barricade
+	name = "box of Barrikada slugs"
+	desc = "A box full of lethal slus, designed for KS-23s."
+	icon_state = "12g_box"
+	illustration = null
+
+/obj/item/storage/box/barricade/PopulateContents()
+	for(var/i in 1 to 7)
+		new /obj/item/ammo_casing/shotgungauge4/barricade(src)

@@ -279,7 +279,7 @@
 /////////////////////////////
 
 /obj/item/gun/ballistic/revolver/doublebarrel
-	name = "double-barreled shotgun"
+	name = "Double-barreled shotgun (12 gauge)"
 	desc = "A true classic."
 	icon_state = "dshotgun"
 	item_state = "shotgun"
@@ -329,7 +329,7 @@
 /////////////////////////////
 
 /obj/item/gun/ballistic/revolver/doublebarrel/improvised
-	name = "improvised shotgun"
+	name = "Improvised shotgun (12 gauge)"
 	desc = "A shoddy break-action breechloaded shotgun. Less ammo-efficient than an actual shotgun, but still packs a punch."
 	icon_state = "ishotgun"
 	item_state = "shotgun"
@@ -368,7 +368,7 @@
 		update_icon()
 
 /obj/item/gun/ballistic/revolver/doublebarrel/improvised/sawn
-	name = "sawn-off improvised shotgun"
+	name = "Sawn-off Improvised shotgun (12 gauge)"
 	desc = "The barrel and stock have been sawn and filed down; it can fit in backpacks. You wont want to shoot two of these at once if you value your wrists."
 	icon_state = "ishotgun"
 	item_state = "gun"

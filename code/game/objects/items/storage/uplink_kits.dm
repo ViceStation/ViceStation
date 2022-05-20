@@ -434,6 +434,13 @@
 	new /obj/item/gun/ballistic/automatic/pistol(src)
 	new /obj/item/ammo_box/magazine/m10mm(src)
 
+
+/obj/item/storage/box/syndie_kit/klobb
+
+/obj/item/storage/box/syndie_kit/klobb/PopulateContents()
+	new /obj/item/gun/ballistic/automatic/klobb(src)
+	new /obj/item/ammo_box/magazine/klobb(src)
+
 /obj/item/storage/box/syndie_kit/contract_kit
 	name = "contractor kit"
 	desc = "Supplied to Syndicate contractors in active mission areas."

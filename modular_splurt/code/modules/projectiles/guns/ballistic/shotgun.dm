@@ -3,7 +3,7 @@
 
 /obj/item/gun/ballistic/shotgun/shorty //for spawn in the armory
 	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
-	name = "super shorty shotgun"
+	name = "Super shorty shotgun (12 gauge)"
 	desc = "A sturdy shotgun with a short magazine, design to be compact and portable at the cost of ammunition capacity."
 	icon_state = "shortshotgun"
 	fire_delay = 7
@@ -13,7 +13,7 @@
 	weapon_weight = WEAPON_LIGHT
 
 /obj/item/gun/ballistic/revolver/doublebarrel/sawn //a dedicated sawn off shotgun for crates and what not
-	name = "sawn-off double-barreled shotgun"
+	name = "sawn-off double-barreled shotgun (12 gauge)"
 	desc = "Omar's coming!"
 	icon_state = "sawnshotgun"
 	item_state = "sawnshotgun"
@@ -127,6 +127,40 @@
 
 /obj/item/gun/ballistic/shotgun/hunting/on_sawoff(mob/user)
 	magazine.max_ammo-- // sawing off drops from 4+1 to 3+1
+
+/obj/item/gun/ballistic/shotgun/ks23
+	name = "KS-23(4 Gauge)"
+	desc = "A Soviet Era 'Special Carbine' shotgun chamerbed in 4 gauge"
+	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
+	icon_state = "heavyshotgun"
+	lefthand_file = 'modular_splurt/icons/mob/inhands/weapons/guns_lefthand.dmi'
+	righthand_file = 'modular_splurt/icons/mob/inhands/weapons/guns_righthand.dmi'
+	fire_sound = "sound/weapons/gun_mou53.ogg"
+	fire_delay = 5
+	mag_type = /obj/item/ammo_box/magazine/internal/ks23
+	w_class = WEIGHT_CLASS_BULKY
+	weapon_weight = WEAPON_HEAVY
+	sawn_desc = "Would have been easier just to get a KS-23M it feels like"
+
+/obj/item/gun/ballistic/shotgun/huntingrifle/attackby(obj/item/A, mob/user, params)
+	..()
+	if(A.tool_behaviour == TOOL_SAW || istype(A, /obj/item/gun/energy/plasmacutter))
+		sawoff(user)
+	if(istype(A, /obj/item/melee/transforming/energy))
+		var/obj/item/melee/transforming/energy/W = A
+		if(W.active)
+			sawoff(user)
+
+/obj/item/gun/ballistic/shotgun/levershot
+	name = "Lever action shotgun (12 Gauge)"
+	desc = "A lever action based shotgun. Makes you feel like a cowboy."
+	icon = 'modular_splurt/icons/obj/guns/projectile.dmi'
+	icon_state = "lever"
+	item_state = "shotgun"
+	fire_delay = 5
+	mag_type = /obj/item/ammo_box/magazine/internal/shot
+	w_class = WEIGHT_CLASS_BULKY
+	weapon_weight = WEAPON_HEAVY
 
 /obj/item/gunpart/rifle308sotck
 	name = "hunting rifle stock"
